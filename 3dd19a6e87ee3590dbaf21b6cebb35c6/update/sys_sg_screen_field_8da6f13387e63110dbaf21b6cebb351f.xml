@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>u_slx_estado_salud</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>700</order>
+        <record_id_field/>
+        <screen display_value="Details">ddbd95e31ba63990f14374ce0a4bcb24</screen>
+        <screen_data_item_table>x_inch_evt_usuarios_afectados</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-11-23 15:09:03</sys_created_on>
+        <sys_id>8da6f13387e63110dbaf21b6cebb351f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_slx_estado_salud</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_screen_field_8da6f13387e63110dbaf21b6cebb351f</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-11-28 20:53:23</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+</record_update>

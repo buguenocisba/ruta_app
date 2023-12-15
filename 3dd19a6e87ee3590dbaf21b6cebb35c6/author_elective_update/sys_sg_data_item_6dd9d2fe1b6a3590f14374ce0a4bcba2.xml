@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Vehículos Afectados</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <query_condition table="x_inch_evt_vehiculos_afectados">u_slx_evento_de_transito={{Evento}}<item endquery="false" field="u_slx_evento_de_transito" goto="false" newquery="false" operator="=" or="false" value="{{Evento}}"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-20 15:08:55</sys_created_on>
+        <sys_id>6dd9d2fe1b6a3590f14374ce0a4bcba2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Vehículos Afectados</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_data_item_6dd9d2fe1b6a3590f14374ce0a4bcba2</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-20 15:09:31</sys_updated_on>
+        <table>x_inch_evt_vehiculos_afectados</table>
+    </sys_sg_data_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_data_item_6dd9d2fe1b6a3590f14374ce0a4bcba2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description/><group_by/><instance_relative_url_qc/><name>Vehículos Afectados</name><offline_query_condition/><offline_query_condition_script/><query_condition table="x_inch_evt_vehiculos_afectados">u_slx_evento_de_transito={{Evento}}<item endquery="false" field="u_slx_evento_de_transito" goto="false" newquery="false" operator="=" or="false" value="{{Evento}}"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-11-20 15:08:55</sys_created_on><sys_id>6dd9d2fe1b6a3590f14374ce0a4bcba2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Vehículos Afectados</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_data_item_6dd9d2fe1b6a3590f14374ce0a4bcba2</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-11-20 15:09:31</sys_updated_on><table>x_inch_evt_vehiculos_afectados</table></sys_sg_data_item></record_update>]]></payload>
+        <payload_hash>-222379114</payload_hash>
+        <record_name>Vehículos Afectados</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-20 15:09:31</sys_created_on>
+        <sys_id>26f91eba1b6a3590f14374ce0a4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bed478f3f0000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-20 15:09:31</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>6af91eba126a35901ddfe69b551cf000</update_guid>
+        <update_guid_history>6af91eba126a35901ddfe69b551cf000:-222379114,65d9d2fe766a35903672c4d12f5dd6a6:95132619</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-20 19:58:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>7d1ec5bead164511bfbee12a1f27f221</sys_id>
+        <sys_metadata>6dd9d2fe1b6a3590f14374ce0a4bcba2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehículos Afectados</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_6dd9d2fe1b6a3590f14374ce0a4bcba2</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_6dd9d2fe1b6a3590f14374ce0a4bcba2">26f91eba1b6a3590f14374ce0a4bcb01</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-20 19:58:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

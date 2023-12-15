@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>Se te ha asignado el Servicio N°${u_slx_evento_de_transito}</message_string>
+        <name>SLX Evento Asignado</name>
+        <push_app display_value="ServiceNow Request Application">ac7f61d273122300d63a566a4cf6a78b</push_app>
+        <push_message_content display_value="SLX Servicio Asignado">947a66a91b0b3590f14374ce0a4bcbe9</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-11 15:41:50</sys_created_on>
+        <sys_id>9c5ae2a91b0b3590f14374ce0a4bcb37</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>SLX Evento Asignado</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_push_notif_msg_9c5ae2a91b0b3590f14374ce0a4bcb37</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-11 15:53:39</sys_updated_on>
+        <table>x_inch_evt_servicios_prestados</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

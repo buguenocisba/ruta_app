@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_05_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-20 20:19:31</sys_created_on>
+        <sys_id>2fe0eb3e1b627590f14374ce0a4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_05_element</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_2fe0eb3e1b627590f14374ce0a4bcbe8</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-20 20:19:31</sys_updated_on>
+        <view_config display_value="Mis Servicios Asignados Card">db50a33e1b627590f14374ce0a4bcbc6</view_config>
+        <view_template_slot display_value="text_05">5039e2ae87627590dbaf21b6cebb3599</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

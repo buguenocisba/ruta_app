@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="DELETE">
+        <active>true</active>
+        <autofill_variable display_value="Evento de Transito">ac8e0fe31bba3950f14374ce0a4bcb9f</autofill_variable>
+        <category/>
+        <description/>
+        <label>Evento de Tránsito</label>
+        <mandatory>false</mandatory>
+        <name>u_slx_evento_de_transito</name>
+        <order>100</order>
+        <page/>
+        <parameter_screen display_value="Crear Vehiculo Afectado">9e76bc2187be7910dbaf21b6cebb35b3</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>true</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-28 21:00:51</sys_created_on>
+        <sys_id>ecb6b42187be7910dbaf21b6cebb35f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Evento de Tránsito</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_ecb6b42187be7910dbaf21b6cebb35f1</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 13:10:23</sys_updated_on>
+        <type display_value="Reference">770c605517021010f2b43b9fadb95900</type>
+    </sys_sg_input>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_input_ecb6b42187be7910dbaf21b6cebb35f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input"><sys_sg_input action="INSERT_OR_UPDATE"><active>true</active><autofill_variable display_value="Evento de Transito">ac8e0fe31bba3950f14374ce0a4bcb9f</autofill_variable><category/><description/><label>Evento de Tránsito</label><mandatory>false</mandatory><name>u_slx_evento_de_transito</name><order>100</order><page/><parameter_screen display_value="Crear Vehiculo Afectado">9e76bc2187be7910dbaf21b6cebb35b3</parameter_screen><parameter_section/><placeholder/><readonly>true</readonly><sys_class_name>sys_sg_input</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-11-28 21:00:51</sys_created_on><sys_id>ecb6b42187be7910dbaf21b6cebb35f1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Evento de Tránsito</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_input_ecb6b42187be7910dbaf21b6cebb35f1</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-12-05 13:10:23</sys_updated_on><type display_value="Reference">770c605517021010f2b43b9fadb95900</type></sys_sg_input></record_update>]]></payload>
+        <payload_hash>1865706894</payload_hash>
+        <record_name>Evento de Tránsito</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-05 13:10:23</sys_created_on>
+        <sys_id>2b8e0f271bba3950f14374ce0a4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c3a19e1f10000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 13:10:23</sys_updated_on>
+        <type>Input</type>
+        <update_guid>6f8e0f2700ba3950bbc6b1757c87fc81</update_guid>
+        <update_guid_history>6f8e0f2700ba3950bbc6b1757c87fc81:1865706894,c717f861e0be791000c4dcdb4eb54e0a:830605725</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-05 13:20:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input">sys_sg_input</sys_db_object>
+        <sys_id>3eaf2a4f3f654f0e851e1302b45ad9e4</sys_id>
+        <sys_metadata>ecb6b42187be7910dbaf21b6cebb35f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Evento de Tránsito</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_input_ecb6b42187be7910dbaf21b6cebb35f1</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_ecb6b42187be7910dbaf21b6cebb35f1">2b8e0f271bba3950f14374ce0a4bcb82</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 13:20:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

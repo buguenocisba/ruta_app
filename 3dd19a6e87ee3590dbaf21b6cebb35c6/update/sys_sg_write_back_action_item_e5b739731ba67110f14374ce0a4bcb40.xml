@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Nuevo Usuario Afectado</name>
+        <parameter_screen display_value="Crear Usuario Afectado">5040c7961b7a7150f14374ce0a4bcb70</parameter_screen>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-23 15:13:45</sys_created_on>
+        <sys_id>e5b739731ba67110f14374ce0a4bcb40</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Nuevo Usuario Afectado</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_e5b739731ba67110f14374ce0a4bcb40</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-06 19:25:55</sys_updated_on>
+        <table>x_inch_evt_usuarios_afectados</table>
+        <template>u_slx_tipo_documento={{Input: u_slx_tipo_documento}}^u_slx_n_identificacion={{Input: u_slx_num_documento}}^u_slx_tipo_usuario={{Input: u_slx_tipo_usuario}}^u_slx_nombre={{Input: u_slx_nombre_usuario}}^u_slx_direccin={{Input: u_slx_domicilio}}^u_slx_edad={{Input: u_slx_edad}}^u_slx_estado_salud={{Input: u_slx_estado_salud}}^u_slx_telefono={{Input: u_slx_telefono}}^u_slx_evento_de_transito={{Variable: Evento}}^u_slx_vehiculo_viajaba={{Input: u_slx_vehiculo_viajaba}}</template>
+        <type>new</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+</record_update>

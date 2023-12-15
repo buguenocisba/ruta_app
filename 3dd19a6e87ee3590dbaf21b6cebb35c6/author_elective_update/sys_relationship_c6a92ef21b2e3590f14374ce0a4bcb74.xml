@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_inch_evt_servicios_prestados</basic_apply_to>
+        <basic_query_from>x_inch_evt_vehiculos_afectados</basic_query_from>
+        <insert_callback/>
+        <name>Vehiculos</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery('u_slx_evento_de_transito', parent.u_slx_evento_de_transito);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-20 16:20:33</sys_created_on>
+        <sys_id>c6a92ef21b2e3590f14374ce0a4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehiculos</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_relationship_c6a92ef21b2e3590f14374ce0a4bcb74</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-20 16:20:33</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=c6a92ef21b2e3590f14374ce0a4bcb74"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_relationship_c6a92ef21b2e3590f14374ce0a4bcb74</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_inch_evt_servicios_prestados&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_inch_evt_vehiculos_afectados&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Vehiculos&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery('u_slx_evento_de_transito', parent.u_slx_evento_de_transito);
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-20 16:20:33&lt;/sys_created_on&gt;&lt;sys_id&gt;c6a92ef21b2e3590f14374ce0a4bcb74&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Vehiculos&lt;/sys_name&gt;&lt;sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6"&gt;3dd19a6e87ee3590dbaf21b6cebb35c6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RutaApp"&gt;3dd19a6e87ee3590dbaf21b6cebb35c6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_c6a92ef21b2e3590f14374ce0a4bcb74&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-20 16:20:33&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c6a92ef21b2e3590f14374ce0a4bcb74"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-795387605</payload_hash>
+        <record_name>Vehiculos</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-20 16:20:34</sys_created_on>
+        <sys_id>0b3aee361b2e3590f14374ce0a4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bed8899370000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-20 16:20:34</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>0f3aee36082e3590a938f7937a0f9e13</update_guid>
+        <update_guid_history>0f3aee36082e3590a938f7937a0f9e13:-795387605</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-20 16:52:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>02a2591769a5492482e8cac8fb9b0b10</sys_id>
+        <sys_metadata>c6a92ef21b2e3590f14374ce0a4bcb74</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehiculos</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent display_value="Servicios Prestados">986b359047640d107a763e14846d4352</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_relationship_c6a92ef21b2e3590f14374ce0a4bcb74</sys_update_name>
+        <sys_update_version display_value="sys_relationship_c6a92ef21b2e3590f14374ce0a4bcb74">0b3aee361b2e3590f14374ce0a4bcb14</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-20 16:52:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

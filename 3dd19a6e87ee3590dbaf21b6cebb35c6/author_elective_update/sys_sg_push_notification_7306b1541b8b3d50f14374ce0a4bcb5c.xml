@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_push_notification">
+    <sys_sg_push_notification action="DELETE">
+        <actionable>false</actionable>
+        <category display_value="Ir al Registro">7706b1541b8b3d50f14374ce0a4bcb59</category>
+        <name>SLX Notifica Asistente en Ruta Asignado</name>
+        <screen display_value="Mis Servicios Asignados">bfe59ee687227590dbaf21b6cebb35b1</screen>
+        <sys_class_name>sys_sg_push_notification</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 14:39:12</sys_created_on>
+        <sys_id>7306b1541b8b3d50f14374ce0a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Notifica Asistente en Ruta Asignado</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_push_notification_7306b1541b8b3d50f14374ce0a4bcb5c</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 14:39:12</sys_updated_on>
+    </sys_sg_push_notification>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_push_notification_7306b1541b8b3d50f14374ce0a4bcb5c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_push_notification"><sys_sg_push_notification action="INSERT_OR_UPDATE"><actionable>false</actionable><category display_value="Ir al Registro">7706b1541b8b3d50f14374ce0a4bcb59</category><name>SLX Notifica Asistente en Ruta Asignado</name><screen display_value="Mis Servicios Asignados">bfe59ee687227590dbaf21b6cebb35b1</screen><sys_class_name>sys_sg_push_notification</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-12-07 14:39:12</sys_created_on><sys_id>7306b1541b8b3d50f14374ce0a4bcb5c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SLX Notifica Asistente en Ruta Asignado</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_push_notification_7306b1541b8b3d50f14374ce0a4bcb5c</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-12-07 14:39:12</sys_updated_on></sys_sg_push_notification></record_update>]]></payload>
+        <payload_hash>-2022680859</payload_hash>
+        <record_name>SLX Notifica Asistente en Ruta Asignado</record_name>
+        <reverted_from/>
+        <source>f5e268f31b767950f14374ce0a4bcbfa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 14:39:12</sys_created_on>
+        <sys_id>c416b1541b8b3d50f14374ce0a4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c44b7e7de0000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 14:39:12</sys_updated_on>
+        <type>Push Notification</type>
+        <update_guid>fb06b1540f8b3d508bc9ab43593d4a5d</update_guid>
+        <update_guid_history>fb06b1540f8b3d508bc9ab43593d4a5d:-2022680859</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 15:26:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_push_notification">sys_sg_push_notification</sys_db_object>
+        <sys_id>2b704e4e3780432c986c728450891401</sys_id>
+        <sys_metadata>7306b1541b8b3d50f14374ce0a4bcb5c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Notifica Asistente en Ruta Asignado</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_push_notification_7306b1541b8b3d50f14374ce0a4bcb5c</sys_update_name>
+        <sys_update_version display_value="sys_sg_push_notification_7306b1541b8b3d50f14374ce0a4bcb5c">c416b1541b8b3d50f14374ce0a4bcb5e</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 15:26:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

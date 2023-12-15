@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="DELETE">
+        <operation/>
+        <order/>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-28 23:11:19</sys_created_on>
+        <sys_id>1ef41d658732b910dbaf21b6cebb35c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_1ef41d658732b910dbaf21b6cebb35c2</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-28 23:11:52</sys_updated_on>
+        <target>u_slx_id_vehiculo</target>
+        <ui_rule display_value="SLX Muestra Patente onLoad">c9e459658732b910dbaf21b6cebb3520</ui_rule>
+        <value>True</value>
+    </sys_sg_ui_rule_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_ui_rule_action_1ef41d658732b910dbaf21b6cebb35c2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action"><sys_sg_ui_rule_action action="INSERT_OR_UPDATE"><operation/><order/><sys_class_name>sys_sg_ui_rule_action</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-11-28 23:11:19</sys_created_on><sys_id>1ef41d658732b910dbaf21b6cebb35c2</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_ui_rule_action_1ef41d658732b910dbaf21b6cebb35c2</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-11-28 23:11:52</sys_updated_on><target>u_slx_id_vehiculo</target><ui_rule display_value="SLX Muestra Patente onLoad">c9e459658732b910dbaf21b6cebb3520</ui_rule><value>True</value></sys_sg_ui_rule_action></record_update>]]></payload>
+        <payload_hash>-961100997</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-28 23:11:52</sys_created_on>
+        <sys_id>521511a58732b910dbaf21b6cebb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c183409920000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-28 23:11:52</sys_updated_on>
+        <type>Mobile UI Rule Action</type>
+        <update_guid>d61511a53e32b910e44e160a03e4e240</update_guid>
+        <update_guid_history>d61511a53e32b910e44e160a03e4e240:-961100997,d2f41d654232b910ecad08f3fa4f93c4:-1229374058</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-28 23:12:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_rule_action">sys_sg_ui_rule_action</sys_db_object>
+        <sys_id>5dbcca08a045457eaa57c0b959a329a1</sys_id>
+        <sys_metadata>1ef41d658732b910dbaf21b6cebb35c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_rule_action_1ef41d658732b910dbaf21b6cebb35c2</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_rule_action_1ef41d658732b910dbaf21b6cebb35c2">521511a58732b910dbaf21b6cebb3541</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-28 23:12:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

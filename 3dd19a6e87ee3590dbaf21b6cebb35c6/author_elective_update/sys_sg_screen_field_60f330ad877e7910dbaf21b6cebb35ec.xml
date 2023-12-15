@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="DELETE">
+        <data_item_field_name>u_slx_danos_ocasionados</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>600</order>
+        <record_id_field/>
+        <screen display_value="Details">f0c955ef1b663990f14374ce0a4bcbd3</screen>
+        <screen_data_item_table>x_inch_evt_vehiculos_afectados</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-11-28 20:47:02</sys_created_on>
+        <sys_id>60f330ad877e7910dbaf21b6cebb35ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_danos_ocasionados</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_screen_field_60f330ad877e7910dbaf21b6cebb35ec</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-11-28 20:47:02</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_screen_field_60f330ad877e7910dbaf21b6cebb35ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>u_slx_danos_ocasionados</data_item_field_name><description_text/><description_text_field/><description_text_type/><field_name/><hidden>false</hidden><order>600</order><record_id_field/><screen display_value="Details">f0c955ef1b663990f14374ce0a4bcbd3</screen><screen_data_item_table>x_inch_evt_vehiculos_afectados</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-11-28 20:47:02</sys_created_on><sys_id>60f330ad877e7910dbaf21b6cebb35ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_danos_ocasionados</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_screen_field_60f330ad877e7910dbaf21b6cebb35ec</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-11-28 20:47:02</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+        <payload_hash>-505858056</payload_hash>
+        <record_name>u_slx_danos_ocasionados</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-11-28 20:47:02</sys_created_on>
+        <sys_id>ecf330ad877e7910dbaf21b6cebb35ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c17af6dab0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-11-28 20:47:02</sys_updated_on>
+        <type>Screen fields</type>
+        <update_guid>e0f330ad427e7910cb7d1ba65432f6ed</update_guid>
+        <update_guid_history>e0f330ad427e7910cb7d1ba65432f6ed:-505858056</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-11-28 20:51:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_field">sys_sg_screen_field</sys_db_object>
+        <sys_id>4db4be19e5ef4ea799ff4e953bdc0301</sys_id>
+        <sys_metadata>60f330ad877e7910dbaf21b6cebb35ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_danos_ocasionados</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_field_60f330ad877e7910dbaf21b6cebb35ec</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_field_60f330ad877e7910dbaf21b6cebb35ec">ecf330ad877e7910dbaf21b6cebb35ed</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-11-28 20:51:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

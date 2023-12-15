@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_inch_evt_servicios_prestados</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Servicios Prestados Record Screen">a16181ad87be7910dbaf21b6cebb35da</embedded_screen>
+        <item_view/>
+        <name>Servicios Prestados List Item Config</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-11-28 21:45:47</sys_created_on>
+        <sys_id>9d6181ad87be7910dbaf21b6cebb355a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Servicios Prestados List Item Config</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_master_item_9d6181ad87be7910dbaf21b6cebb355a</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-11-28 21:45:48</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Servicios Prestados Card">196181ad87be7910dbaf21b6cebb3587</view_config>
+    </sys_sg_master_item>
+</record_update>

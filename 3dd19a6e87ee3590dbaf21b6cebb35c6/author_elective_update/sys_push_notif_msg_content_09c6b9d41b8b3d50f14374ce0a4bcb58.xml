@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg_content">
+    <sys_push_notif_msg_content action="DELETE">
+        <name>SLX Notifica Asistente en Ruta</name>
+        <push_app display_value="ServiceNow Request Application">ac7f61d273122300d63a566a4cf6a78b</push_app>
+        <script><![CDATA[(function buildJSON( /*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+
+    var layoutGen = new global.NotificationLayoutFieldGenerator();
+    var text_01 = layoutGen.layoutField(current.getTableName(), current.sys_id, "number");
+    var text_02 = layoutGen.layoutField(current.getTableName(), current.sys_id, "u_slx_tipo_evento");
+    var text_03 = layoutGen.layoutField(current.getTableName(), current.sys_id, "u_slx_fecha_evento");
+
+    var deepLinkGenerator = new global.MobileDeepLinkGenerator("Request");
+    var link = deepLinkGenerator.getFormScreenLink("bcde1bba1b627590f14374ce0a4bcbe4", current.getTableName(), current.getValue("sys_id"));
+
+    var json = {
+
+        "Link": link,
+
+        "Layout": {
+
+            "Evento": text_01,
+
+            "Tipo de Evento": text_02,
+
+            "Fecha del Evento": text_03
+
+        }
+
+    };
+
+    return json;
+
+})(current, message, attributes);]]></script>
+        <sys_class_name>sys_push_notif_msg_content</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 14:44:56</sys_created_on>
+        <sys_id>09c6b9d41b8b3d50f14374ce0a4bcb58</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SLX Notifica Asistente en Ruta</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_push_notif_msg_content_09c6b9d41b8b3d50f14374ce0a4bcb58</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 15:08:20</sys_updated_on>
+    </sys_push_notif_msg_content>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_push_notif_msg_content_09c6b9d41b8b3d50f14374ce0a4bcb58</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_push_notif_msg_content"&gt;&lt;sys_push_notif_msg_content action="INSERT_OR_UPDATE"&gt;&lt;name&gt;SLX Notifica Asistente en Ruta&lt;/name&gt;&lt;push_app display_value="ServiceNow Request Application"&gt;ac7f61d273122300d63a566a4cf6a78b&lt;/push_app&gt;&lt;script&gt;&lt;![CDATA[(function buildJSON( /*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+
+    var layoutGen = new global.NotificationLayoutFieldGenerator();
+    var text_01 = layoutGen.layoutField(current.getTableName(), current.sys_id, "number");
+    var text_02 = layoutGen.layoutField(current.getTableName(), current.sys_id, "u_slx_tipo_evento");
+    var text_03 = layoutGen.layoutField(current.getTableName(), current.sys_id, "u_slx_fecha_evento");
+
+    var deepLinkGenerator = new global.MobileDeepLinkGenerator("Request");
+    var link = deepLinkGenerator.getFormScreenLink("bcde1bba1b627590f14374ce0a4bcbe4", current.getTableName(), current.getValue("sys_id"));
+
+    var json = {
+
+        "Link": link,
+
+        "Layout": {
+
+            "Evento": text_01,
+
+            "Tipo de Evento": text_02,
+
+            "Fecha del Evento": text_03
+
+        }
+
+    };
+
+    return json;
+
+})(current, message, attributes);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_push_notif_msg_content&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-07 14:44:56&lt;/sys_created_on&gt;&lt;sys_id&gt;09c6b9d41b8b3d50f14374ce0a4bcb58&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Notifica Asistente en Ruta&lt;/sys_name&gt;&lt;sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6"&gt;3dd19a6e87ee3590dbaf21b6cebb35c6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RutaApp"&gt;3dd19a6e87ee3590dbaf21b6cebb35c6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_push_notif_msg_content_09c6b9d41b8b3d50f14374ce0a4bcb58&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-07 15:08:20&lt;/sys_updated_on&gt;&lt;/sys_push_notif_msg_content&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1383516521</payload_hash>
+        <record_name>SLX Notifica Asistente en Ruta</record_name>
+        <reverted_from/>
+        <source>f5e268f31b767950f14374ce0a4bcbfa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 15:08:20</sys_created_on>
+        <sys_id>a6bc71541bcb3d50f14374ce0a4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c44d2937d0000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 15:08:20</sys_updated_on>
+        <type>Push Notification Message Content</type>
+        <update_guid>eabc71544bcb3d503b1de841ec82e441</update_guid>
+        <update_guid_history>eabc71544bcb3d503b1de841ec82e441:1383516521,375739d4bd8b3d5094c05b7364a9ee67:-911855406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 15:27:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_push_notif_msg_content">sys_push_notif_msg_content</sys_db_object>
+        <sys_id>a93f474f0b804aa0ab3dd024f0f7b100</sys_id>
+        <sys_metadata>09c6b9d41b8b3d50f14374ce0a4bcb58</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Notifica Asistente en Ruta</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_push_notif_msg_content_09c6b9d41b8b3d50f14374ce0a4bcb58</sys_update_name>
+        <sys_update_version display_value="sys_push_notif_msg_content_09c6b9d41b8b3d50f14374ce0a4bcb58">a6bc71541bcb3d50f14374ce0a4bcb42</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 15:27:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

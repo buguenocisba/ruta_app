@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 13:14:57</sys_created_on>
+        <sys_id>3642a5581bc73d50f14374ce0a4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.intervial_asistente_ruta</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_security_acl display_value="">a94225981bc73d50f14374ce0a4bcbf1</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3642a5581bc73d50f14374ce0a4bcb96</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 13:14:57</sys_updated_on>
+        <sys_user_role display_value="intervial_asistente_ruta" name="intervial_asistente_ruta">4281e1181bc73d50f14374ce0a4bcb03</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_security_acl_role_3642a5581bc73d50f14374ce0a4bcb96</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-12-07 13:14:57</sys_created_on><sys_id>3642a5581bc73d50f14374ce0a4bcb96</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.intervial_asistente_ruta</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_security_acl display_value="">a94225981bc73d50f14374ce0a4bcbf1</sys_security_acl><sys_update_name>sys_security_acl_role_3642a5581bc73d50f14374ce0a4bcb96</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-12-07 13:14:57</sys_updated_on><sys_user_role display_value="intervial_asistente_ruta" name="intervial_asistente_ruta">4281e1181bc73d50f14374ce0a4bcb03</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1673479796</payload_hash>
+        <record_name>.intervial_asistente_ruta</record_name>
+        <reverted_from/>
+        <source>f5e268f31b767950f14374ce0a4bcbfa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 13:14:57</sys_created_on>
+        <sys_id>f5c265d81bc73d50f14374ce0a4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c446ac4f80000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 13:14:57</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>f9c265d8b4c73d50b545d5aee951506c</update_guid>
+        <update_guid_history>f9c265d8b4c73d50b545d5aee951506c:-1673479796</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 07-12-23 10:28">8bd5e9101b0b3d50f14374ce0a4bcb71</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 13:28:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3f346fc2d1c942239cc6b46e9fc886b1</sys_id>
+        <sys_metadata>3642a5581bc73d50f14374ce0a4bcb96</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.intervial_asistente_ruta</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_3642a5581bc73d50f14374ce0a4bcb96</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_3642a5581bc73d50f14374ce0a4bcb96">f5c265d81bc73d50f14374ce0a4bcb6d</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 13:28:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot_attribute">
+    <sys_sg_view_template_slot_attribute action="INSERT_OR_UPDATE">
+        <description>text_02_Typography</description>
+        <name display_value="Typography">30871ab9b701301096aa25efce11a925</name>
+        <sys_class_name>sys_sg_view_template_slot_attribute</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-19 20:24:04</sys_created_on>
+        <sys_id>9c68daaa87227590dbaf21b6cebb35da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>30871ab9b701301096aa25efce11a925</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_view_template_slot_attribute_9c68daaa87227590dbaf21b6cebb35da</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-19 20:28:44</sys_updated_on>
+        <translated_value/>
+        <value>Subhead 1</value>
+        <view_template_slot display_value="text_02">9068966a87227590dbaf21b6cebb3514</view_template_slot>
+    </sys_sg_view_template_slot_attribute>
+</record_update>

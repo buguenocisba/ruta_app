@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Servicios Prestados List Screen Icon">916181ad87be7910dbaf21b6cebb35a4</icon>
+        <name>Servicios Prestados</name>
+        <parameter_screen/>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-11-28 21:45:47</sys_created_on>
+        <sys_id>dd618d6d87be7910dbaf21b6cebb359d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Servicios Prestados</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_list_screen_dd618d6d87be7910dbaf21b6cebb359d</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-11-28 21:45:48</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_list_screen_dd618d6d87be7910dbaf21b6cebb359d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen"><sys_sg_list_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description/><dynamic_prefetch_count/><empty_state/><fetch_type>on_demand</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="Servicios Prestados List Screen Icon">916181ad87be7910dbaf21b6cebb35a4</icon><name>Servicios Prestados</name><parameter_screen/><roles_override/><sys_class_name>sys_sg_list_screen</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-11-28 21:45:47</sys_created_on><sys_id>dd618d6d87be7910dbaf21b6cebb359d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Servicios Prestados</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_list_screen_dd618d6d87be7910dbaf21b6cebb359d</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-11-28 21:45:48</sys_updated_on></sys_sg_list_screen></record_update>]]></payload>
+        <payload_hash>-1350780593</payload_hash>
+        <record_name>Servicios Prestados</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-11-28 21:45:48</sys_created_on>
+        <sys_id>9d6181ad87be7910dbaf21b6cebb35cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c17e53c130000002</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-11-28 21:45:48</sys_updated_on>
+        <type>List screen</type>
+        <update_guid>dd6181ad19be7910f0bf1a815e3948a7</update_guid>
+        <update_guid_history>dd6181ad19be7910f0bf1a815e3948a7:-1350780593,59618d6d1abe79107ee34839caba2a9f:-377736898</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-11-28 22:28:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_list_screen">sys_sg_list_screen</sys_db_object>
+        <sys_id>202dfe19375841a0840f1b8be45ad979</sys_id>
+        <sys_metadata>dd618d6d87be7910dbaf21b6cebb359d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Servicios Prestados</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_list_screen_dd618d6d87be7910dbaf21b6cebb359d</sys_update_name>
+        <sys_update_version display_value="sys_sg_list_screen_dd618d6d87be7910dbaf21b6cebb359d">9d6181ad87be7910dbaf21b6cebb35cd</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-11-28 22:28:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

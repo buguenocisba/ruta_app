@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_variable_attribute">
+    <sys_sg_variable_attribute action="INSERT_OR_UPDATE">
+        <name>FieldName</name>
+        <sys_class_name>sys_sg_variable_attribute</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-05 16:56:33</sys_created_on>
+        <sys_id>605244771b727950f14374ce0a4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FieldName</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_variable_attribute_605244771b727950f14374ce0a4bcbfc</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 16:56:33</sys_updated_on>
+        <value>u_slx_direccin</value>
+        <variable display_value="Variable Domicilio">605244771b727950f14374ce0a4bcbfa</variable>
+    </sys_sg_variable_attribute>
+</record_update>

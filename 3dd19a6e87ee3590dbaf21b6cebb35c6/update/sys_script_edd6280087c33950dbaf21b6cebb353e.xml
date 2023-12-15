@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_inch_evt_servicios_prestados</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Validar Fechas </name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+
+    var fecha_ce = current.u_slx_fecha_aviso_ce;
+    var fecha_aviso = current.u_slx_hora_aviso_movil;
+    var fecha_llegada = current.u_slx_hora_llegada_movil;
+    var fecha_termino = current.u_slx_hora_termino_movil;
+	var gtd = new GlideDateTime();
+
+	gs.addInfoMessage(gtd);
+	gs.addInfoMessage(fecha_ce);
+	gs.addInfoMessage(fecha_aviso);
+	gs.addInfoMessage(fecha_llegada);
+	gs.addInfoMessage(fecha_termino);
+	
+
+    if (fecha_ce > fecha_aviso) {
+        gs.addErrorMessage("La fecha debe ser posterior o igual a la Fecha de Aviso CE");
+        current.setAbortAction(true);
+    }
+
+    if (fecha_aviso >= fecha_llegada) {
+        gs.addErrorMessage("La fecha debe ser posterior a la Hora de Aviso");
+        current.setAbortAction(true);
+    }
+
+    if (fecha_llegada >= fecha_termino) {
+        gs.addErrorMessage("La fecha debe ser posterior a la Hora de Llegada");
+        current.setAbortAction(true);
+    }
+
+    if (gtd <= fecha_termino) {
+        gs.addErrorMessage("La Fecha y hora debe ser anterior a la actual");
+        current.setAbortAction(true);
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-06 14:22:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>edd6280087c33950dbaf21b6cebb353e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>SLX Validar Fechas </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_script_edd6280087c33950dbaf21b6cebb353e</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-06 15:29:18</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=edd6280087c33950dbaf21b6cebb353e"/>
+</record_update>

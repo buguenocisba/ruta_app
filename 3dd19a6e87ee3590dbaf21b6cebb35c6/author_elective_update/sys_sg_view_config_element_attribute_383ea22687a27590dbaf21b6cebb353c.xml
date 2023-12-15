@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute">
+    <sys_sg_view_config_element_attribute action="DELETE">
+        <description>text_10_FieldValue</description>
+        <name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name>
+        <sys_class_name>sys_sg_view_config_element_attribute</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-19 21:59:24</sys_created_on>
+        <sys_id>383ea22687a27590dbaf21b6cebb353c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_attribute_383ea22687a27590dbaf21b6cebb353c</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-19 21:59:24</sys_updated_on>
+        <translated_value/>
+        <value>u_slx_movil_asistencia</value>
+        <view_config_element display_value="text_10_element">b03ea22687a27590dbaf21b6cebb353a</view_config_element>
+    </sys_sg_view_config_element_attribute>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_view_config_element_attribute_383ea22687a27590dbaf21b6cebb353c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute"><sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE"><description>text_10_FieldValue</description><name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name><sys_class_name>sys_sg_view_config_element_attribute</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-11-19 21:59:24</sys_created_on><sys_id>383ea22687a27590dbaf21b6cebb353c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_view_config_element_attribute_383ea22687a27590dbaf21b6cebb353c</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-11-19 21:59:24</sys_updated_on><translated_value/><value>u_slx_movil_asistencia</value><view_config_element display_value="text_10_element">b03ea22687a27590dbaf21b6cebb353a</view_config_element></sys_sg_view_config_element_attribute></record_update>]]></payload>
+        <payload_hash>187611643</payload_hash>
+        <record_name>c2eed5c2b7321010df65f6efce11a9cf</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-19 21:59:24</sys_created_on>
+        <sys_id>3c3ea22687a27590dbaf21b6cebb353e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18be99875000000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-19 21:59:24</sys_updated_on>
+        <type>Card element attribute</type>
+        <update_guid>303ea2267fa2759060d9c07de929ff3e</update_guid>
+        <update_guid_history>303ea2267fa2759060d9c07de929ff3e:187611643</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-20 20:06:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element_attribute">sys_sg_view_config_element_attribute</sys_db_object>
+        <sys_id>7bc9034ab1674c60bfd712f50749ea40</sys_id>
+        <sys_metadata>383ea22687a27590dbaf21b6cebb353c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_attribute_383ea22687a27590dbaf21b6cebb353c</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_attribute_383ea22687a27590dbaf21b6cebb353c">3c3ea22687a27590dbaf21b6cebb353e</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-20 20:06:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

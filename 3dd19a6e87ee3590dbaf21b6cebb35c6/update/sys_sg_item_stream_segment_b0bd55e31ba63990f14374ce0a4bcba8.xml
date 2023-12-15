@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="INSERT_OR_UPDATE">
+        <empty_state/>
+        <interleave_order_direction>asc</interleave_order_direction>
+        <max_offline_rows>500</max_offline_rows>
+        <name>Usuarios Afectados Screen Segment</name>
+        <order>10</order>
+        <screen display_value="Usuarios Afectados">30bd55e31ba63990f14374ce0a4bcba5</screen>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-22 18:41:37</sys_created_on>
+        <sys_id>b0bd55e31ba63990f14374ce0a4bcba8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Usuarios Afectados Screen Segment</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_b0bd55e31ba63990f14374ce0a4bcba8</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-22 18:41:37</sys_updated_on>
+    </sys_sg_item_stream_segment>
+</record_update>

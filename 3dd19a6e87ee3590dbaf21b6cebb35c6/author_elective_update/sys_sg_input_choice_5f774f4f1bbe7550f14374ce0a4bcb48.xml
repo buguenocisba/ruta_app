@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_choice">
+    <sys_sg_input_choice action="DELETE">
+        <image_url/>
+        <input display_value="Tipo de Liberación">a5e50fcb1bbe7550f14374ce0a4bcb4e</input>
+        <label>Aceite Lubricante</label>
+        <order>20</order>
+        <selected_image_url/>
+        <sys_class_name>sys_sg_input_choice</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-12-03 23:22:33</sys_created_on>
+        <sys_id>5f774f4f1bbe7550f14374ce0a4bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aceite Lubricante</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_choice_5f774f4f1bbe7550f14374ce0a4bcb48</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:22:33</sys_updated_on>
+        <value>aceite_lubricante</value>
+    </sys_sg_input_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_input_choice_5f774f4f1bbe7550f14374ce0a4bcb48</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_choice"><sys_sg_input_choice action="INSERT_OR_UPDATE"><image_url/><input display_value="Tipo de Liberación">a5e50fcb1bbe7550f14374ce0a4bcb4e</input><label>Aceite Lubricante</label><order>20</order><selected_image_url/><sys_class_name>sys_sg_input_choice</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-12-03 23:22:33</sys_created_on><sys_id>5f774f4f1bbe7550f14374ce0a4bcb48</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Aceite Lubricante</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_input_choice_5f774f4f1bbe7550f14374ce0a4bcb48</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-12-03 23:22:33</sys_updated_on><value>aceite_lubricante</value></sys_sg_input_choice></record_update>]]></payload>
+        <payload_hash>1690908271</payload_hash>
+        <record_name>Aceite Lubricante</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-12-03 23:22:33</sys_created_on>
+        <sys_id>5f77c7cf1bbe7550f14374ce0a4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c31fd9c1c0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:22:33</sys_updated_on>
+        <type>Input Choice</type>
+        <update_guid>57774f4f77be755045ba142e6f14a74a</update_guid>
+        <update_guid_history>57774f4f77be755045ba142e6f14a74a:1690908271</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-05 13:44:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input_choice">sys_sg_input_choice</sys_db_object>
+        <sys_id>a8fcaf2f79284beab5fa9da5445d7624</sys_id>
+        <sys_metadata>5f774f4f1bbe7550f14374ce0a4bcb48</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aceite Lubricante</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_input_choice_5f774f4f1bbe7550f14374ce0a4bcb48</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_choice_5f774f4f1bbe7550f14374ce0a4bcb48">5f77c7cf1bbe7550f14374ce0a4bcbea</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 13:44:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

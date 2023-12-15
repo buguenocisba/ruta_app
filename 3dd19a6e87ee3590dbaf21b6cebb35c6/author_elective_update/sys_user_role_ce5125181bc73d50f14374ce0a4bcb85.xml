@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>intervia_asistente_ruta</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <snbe>false</snbe>
+        <suffix/>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 13:09:03</sys_created_on>
+        <sys_id>ce5125181bc73d50f14374ce0a4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>intervia_asistente_ruta</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_user_role_ce5125181bc73d50f14374ce0a4bcb85</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 13:09:03</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_user_role_ce5125181bc73d50f14374ce0a4bcb85</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>intervia_asistente_ruta</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><snbe>false</snbe><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-12-07 13:09:03</sys_created_on><sys_id>ce5125181bc73d50f14374ce0a4bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_name>intervia_asistente_ruta</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_user_role_ce5125181bc73d50f14374ce0a4bcb85</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-12-07 13:09:03</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1114617134</payload_hash>
+        <record_name>intervia_asistente_ruta</record_name>
+        <reverted_from/>
+        <source>f5e268f31b767950f14374ce0a4bcbfa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 13:09:03</sys_created_on>
+        <sys_id>17616d901bc73d50f14374ce0a4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c44655f030000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 13:09:03</sys_updated_on>
+        <type>Role</type>
+        <update_guid>57616d900dc73d50de090a6e7d575086</update_guid>
+        <update_guid_history>57616d900dc73d50de090a6e7d575086:-1114617134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 07-12-23 10:09">b881a9181bc73d50f14374ce0a4bcb4a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-07 13:09:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>1a479ed4446f47b692727b9197d90c64</sys_id>
+        <sys_metadata>ce5125181bc73d50f14374ce0a4bcb85</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>intervia_asistente_ruta</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_user_role_ce5125181bc73d50f14374ce0a4bcb85</sys_update_name>
+        <sys_update_version display_value="sys_user_role_ce5125181bc73d50f14374ce0a4bcb85">17616d901bc73d50f14374ce0a4bcb87</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-07 13:09:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

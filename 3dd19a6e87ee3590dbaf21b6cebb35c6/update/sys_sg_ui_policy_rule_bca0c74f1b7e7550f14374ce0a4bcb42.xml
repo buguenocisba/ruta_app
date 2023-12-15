@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_policy_rule">
+    <sys_sg_ui_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_slx_nombre_sustancia</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_sg_ui_policy_rule</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-12-03 22:52:37</sys_created_on>
+        <sys_id>bca0c74f1b7e7550f14374ce0a4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_nombre_sustancia</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_ui_policy_rule_bca0c74f1b7e7550f14374ce0a4bcb42</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-12-03 22:52:37</sys_updated_on>
+        <table>x_inch_evt_servicios_prestados</table>
+        <ui_policy display_value="SLX Existe liberacion">7670c74f1b7e7550f14374ce0a4bcbfb</ui_policy>
+        <visible>false</visible>
+    </sys_sg_ui_policy_rule>
+</record_update>

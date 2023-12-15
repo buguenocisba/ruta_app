@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Editar Vehiculo Afectado</name>
+        <parameter_screen display_value="Editar Vehiculo">172ea35b87f67550dbaf21b6cebb35ec</parameter_screen>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-04 20:50:04</sys_created_on>
+        <sys_id>272e675b87f67550dbaf21b6cebb3539</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Editar Vehiculo Afectado</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_272e675b87f67550dbaf21b6cebb3539</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-04 21:40:28</sys_updated_on>
+        <table>x_inch_evt_vehiculos_afectados</table>
+        <template>u_slx_tipo_vehiculo={{Input: Tipo de vehículo}}^u_slx_marca={{Input: Marca}}^u_slx_modelo={{Input: Modelo}}^u_slx_color={{Input: Color}}^u_slx_id_vehiculo={{Input: Patente}}^u_slx_tipo_panne={{Input: Tipo de panne}}^u_slx_maniobra={{Input: Tipo maniobra vehículo participante}}^u_slx_danos_vehiculo={{Input: Daños al Vehículo}}^u_slx_sin_dato={{Input: ¿Patente?}}</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+</record_update>

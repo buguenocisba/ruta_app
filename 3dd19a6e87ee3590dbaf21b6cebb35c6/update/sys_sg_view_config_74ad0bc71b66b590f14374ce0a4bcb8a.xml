@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <description/>
+        <name>Vehículos Afectados Servicios Card</name>
+        <scratchpad_script/>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-21 13:33:43</sys_created_on>
+        <sys_id>74ad0bc71b66b590f14374ce0a4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehículos Afectados Servicios Card</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_view_config_74ad0bc71b66b590f14374ce0a4bcb8a</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-21 13:33:43</sys_updated_on>
+        <table>x_inch_evt_vehiculos_afectados</table>
+        <template display_value="Eventos de Transito-copy">9439e2ae87627590dbaf21b6cebb357f</template>
+    </sys_sg_view_config>
+</record_update>

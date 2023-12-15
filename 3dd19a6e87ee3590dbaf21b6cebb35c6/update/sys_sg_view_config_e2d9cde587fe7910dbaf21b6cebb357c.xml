@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <description/>
+        <name>Servicio Prestado Card</name>
+        <scratchpad_script/>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-11-28 22:22:44</sys_created_on>
+        <sys_id>e2d9cde587fe7910dbaf21b6cebb357c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Servicio Prestado Card</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_view_config_e2d9cde587fe7910dbaf21b6cebb357c</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-11-28 22:22:44</sys_updated_on>
+        <table>x_inch_evt_servicios_prestados</table>
+        <template display_value="Template 01">6bb0be5c41a71010f877183fc9b8be0c</template>
+    </sys_sg_view_config>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule">
+    <sys_sg_ui_rule action="DELETE">
+        <active>true</active>
+        <condition>u_slx_liberacion_sustanciaISsi</condition>
+        <name>SLX Mostrar Campos</name>
+        <order/>
+        <parent_id>1b0403c71bbe7550f14374ce0a4bcb0f</parent_id>
+        <parent_table>sys_sg_parameter_screen</parent_table>
+        <reverse_if_false>true</reverse_if_false>
+        <sys_class_name>sys_sg_ui_rule</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-05 14:00:44</sys_created_on>
+        <sys_id>091a53af1bfa3950f14374ce0a4bcb7c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SLX Mostrar Campos</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_091a53af1bfa3950f14374ce0a4bcb7c</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 14:08:11</sys_updated_on>
+        <trigger>onLoad,onChange</trigger>
+    </sys_sg_ui_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_ui_rule_091a53af1bfa3950f14374ce0a4bcb7c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule"><sys_sg_ui_rule action="INSERT_OR_UPDATE"><active>true</active><condition>u_slx_liberacion_sustanciaISsi</condition><name>SLX Mostrar Campos</name><order/><parent_id>1b0403c71bbe7550f14374ce0a4bcb0f</parent_id><parent_table>sys_sg_parameter_screen</parent_table><reverse_if_false>true</reverse_if_false><sys_class_name>sys_sg_ui_rule</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-12-05 14:00:44</sys_created_on><sys_id>091a53af1bfa3950f14374ce0a4bcb7c</sys_id><sys_mod_count>3</sys_mod_count><sys_name>SLX Mostrar Campos</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_ui_rule_091a53af1bfa3950f14374ce0a4bcb7c</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-12-05 14:08:11</sys_updated_on><trigger>onLoad,onChange</trigger></sys_sg_ui_rule></record_update>]]></payload>
+        <payload_hash>-375835861</payload_hash>
+        <record_name>SLX Mostrar Campos</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-05 14:08:11</sys_created_on>
+        <sys_id>16cb1f631b3e3950f14374ce0a4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c3a4ecc780000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 14:08:11</sys_updated_on>
+        <type>Mobile UI Rule</type>
+        <update_guid>9acb1f63033e3950fcbb1431f8875a68</update_guid>
+        <update_guid_history>9acb1f63033e3950fcbb1431f8875a68:-375835861,a18b5b63b63e3950cdeaec59e66cb062:-894594080,e46b9fef67fa3950ebda40d5640bf937:718657345,491a53afdcfa39502b0da9f12f85a67d:1329182123</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-05 14:10:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_rule">sys_sg_ui_rule</sys_db_object>
+        <sys_id>42ea7cda5b2d4e809a801cc0ff438061</sys_id>
+        <sys_metadata>091a53af1bfa3950f14374ce0a4bcb7c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Mostrar Campos</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_rule_091a53af1bfa3950f14374ce0a4bcb7c</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_rule_091a53af1bfa3950f14374ce0a4bcb7c">16cb1f631b3e3950f14374ce0a4bcb69</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 14:10:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

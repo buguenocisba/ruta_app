@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b0f5d8fbdb7d83008ddc3c9b7c96192a" extends="sys_import_set_row" label="Imp Tmpl Sys User" max_length="40" name="u_imp_tmpl_sys_user" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last name" label="Last name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Password needs reset" label="Password needs reset" max_length="40" name="u_password_needs_reset" type="string"/>
+    </element>
+</database>

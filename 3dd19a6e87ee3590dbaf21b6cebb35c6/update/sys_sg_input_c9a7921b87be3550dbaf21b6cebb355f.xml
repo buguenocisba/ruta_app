@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable/>
+        <category/>
+        <description/>
+        <label>Calzada Alteración</label>
+        <mandatory>false</mandatory>
+        <name>Calzada Alteración</name>
+        <order>30</order>
+        <page/>
+        <parameter_screen display_value="Alteración Vial">567752d787be3550dbaf21b6cebb35b0</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-04 14:31:58</sys_created_on>
+        <sys_id>c9a7921b87be3550dbaf21b6cebb355f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Calzada Alteración</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_c9a7921b87be3550dbaf21b6cebb355f</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 22:17:41</sys_updated_on>
+        <type display_value="Choice">8dfb205517021010f2b43b9fadb9592e</type>
+    </sys_sg_input>
+</record_update>

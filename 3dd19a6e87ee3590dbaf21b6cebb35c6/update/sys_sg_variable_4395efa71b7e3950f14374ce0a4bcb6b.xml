@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_variable">
+    <sys_sg_variable action="INSERT_OR_UPDATE">
+        <name>Variable Tipo Maniobra</name>
+        <parameter_screen display_value="Editar Vehiculo">172ea35b87f67550dbaf21b6cebb35ec</parameter_screen>
+        <parameter_section/>
+        <sys_class_name>sys_sg_variable</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-05 14:51:07</sys_created_on>
+        <sys_id>4395efa71b7e3950f14374ce0a4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variable Tipo Maniobra</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_variable_4395efa71b7e3950f14374ce0a4bcb6b</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 14:51:07</sys_updated_on>
+        <type>db_field</type>
+    </sys_sg_variable>
+</record_update>

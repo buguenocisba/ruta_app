@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="DELETE">
+        <default_value/>
+        <name>Movil de Asistencia</name>
+        <parent>3c60c74787bef150dbaf21b6cebb351c</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-03 22:51:30</sys_created_on>
+        <sys_id>fc608f4787bef150dbaf21b6cebb35eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Movil de Asistencia</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_fc608f4787bef150dbaf21b6cebb35eb</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-03 22:58:00</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_item_parameter_fc608f4787bef150dbaf21b6cebb35eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter"><sys_sg_item_parameter action="INSERT_OR_UPDATE"><default_value/><name>Movil de Asistencia</name><parent>3c60c74787bef150dbaf21b6cebb351c</parent><parent_table>sys_sg_write_back_action_item</parent_table><sys_class_name>sys_sg_item_parameter</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-12-03 22:51:30</sys_created_on><sys_id>fc608f4787bef150dbaf21b6cebb35eb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Movil de Asistencia</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_item_parameter_fc608f4787bef150dbaf21b6cebb35eb</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-12-03 22:58:00</sys_updated_on><type>string</type></sys_sg_item_parameter></record_update>]]></payload>
+        <payload_hash>121705133</payload_hash>
+        <record_name>Movil de Asistencia</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-03 22:58:00</sys_created_on>
+        <sys_id>ffd147c787bef150dbaf21b6cebb35ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c31e723850000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-03 22:58:00</sys_updated_on>
+        <type>Data parameter</type>
+        <update_guid>77d147c763bef15025905d3e09a323ba</update_guid>
+        <update_guid_history>77d147c763bef15025905d3e09a323ba:121705133,70608f479bbef150e37ba1fcd0729eee:-1007132129</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-03 23:08:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_parameter">sys_sg_item_parameter</sys_db_object>
+        <sys_id>4221dc1749834b30967640c932fb2f10</sys_id>
+        <sys_metadata>fc608f4787bef150dbaf21b6cebb35eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Movil de Asistencia</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_item_parameter_fc608f4787bef150dbaf21b6cebb35eb</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_parameter_fc608f4787bef150dbaf21b6cebb35eb">ffd147c787bef150dbaf21b6cebb35ba</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:08:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

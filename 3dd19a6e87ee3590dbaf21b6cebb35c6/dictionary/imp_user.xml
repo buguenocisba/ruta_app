@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element create_roles="maint" db_object_id="67a29d36db1103006f7f3a4d7c96195d" extends="sys_import_set_row" label="Usuario" max_length="40" name="imp_user" read_roles="maint" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Compañia" label="Compañia" max_length="40" name="u_compañia" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=First name" label="First name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last name" label="Last name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Password" label="Password" max_length="40" name="u_password" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Password needs reset" label="Password needs reset" max_length="40" name="u_password_needs_reset" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Title" label="Title" max_length="40" name="u_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=User ID" label="User ID" max_length="40" name="u_user_id" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_inch_evt_servicios_prestados</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Servicios Prestados Copy Record Screen">528441a187fe7910dbaf21b6cebb35d5</embedded_screen>
+        <item_view/>
+        <name>Servicios Prestados Copy List Item Config</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-11-28 21:59:29</sys_created_on>
+        <sys_id>0a8441a187fe7910dbaf21b6cebb358a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Servicios Prestados Copy List Item Config</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_master_item_0a8441a187fe7910dbaf21b6cebb358a</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-11-28 21:59:31</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Servicios Prestados Copy Card">8e8441a187fe7910dbaf21b6cebb3590</view_config>
+    </sys_sg_master_item>
+</record_update>

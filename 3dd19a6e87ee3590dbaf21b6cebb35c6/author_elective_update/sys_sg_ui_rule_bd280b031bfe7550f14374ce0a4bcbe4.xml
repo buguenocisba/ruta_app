@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule">
+    <sys_sg_ui_rule action="DELETE">
+        <active>true</active>
+        <condition>u_slx_liberacion_sustancia!="si"
+</condition>
+        <name>New mobile UI Rule</name>
+        <order>1</order>
+        <parent_id>1b0403c71bbe7550f14374ce0a4bcb0f</parent_id>
+        <parent_table>sys_sg_parameter_screen</parent_table>
+        <reverse_if_false>true</reverse_if_false>
+        <sys_class_name>sys_sg_ui_rule</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-12-03 23:25:27</sys_created_on>
+        <sys_id>bd280b031bfe7550f14374ce0a4bcbe4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>New mobile UI Rule</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_bd280b031bfe7550f14374ce0a4bcbe4</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:31:40</sys_updated_on>
+        <trigger>onLoad,onChange</trigger>
+    </sys_sg_ui_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_ui_rule_bd280b031bfe7550f14374ce0a4bcbe4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule"><sys_sg_ui_rule action="INSERT_OR_UPDATE"><active>true</active><condition>u_slx_liberacion_sustancia!="si"
+</condition><name>New mobile UI Rule</name><order>1</order><parent_id>1b0403c71bbe7550f14374ce0a4bcb0f</parent_id><parent_table>sys_sg_parameter_screen</parent_table><reverse_if_false>true</reverse_if_false><sys_class_name>sys_sg_ui_rule</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-12-03 23:25:27</sys_created_on><sys_id>bd280b031bfe7550f14374ce0a4bcbe4</sys_id><sys_mod_count>6</sys_mod_count><sys_name>New mobile UI Rule</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_ui_rule_bd280b031bfe7550f14374ce0a4bcbe4</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-12-03 23:31:40</sys_updated_on><trigger>onLoad,onChange</trigger></sys_sg_ui_rule></record_update>]]></payload>
+        <payload_hash>-329190402</payload_hash>
+        <record_name>New mobile UI Rule</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-12-03 23:31:40</sys_created_on>
+        <sys_id>f89943071bfe7550f14374ce0a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c3205f5170000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:31:40</sys_updated_on>
+        <type>Mobile UI Rule</type>
+        <update_guid>7099430796fe7550a3a6491ccd8fd071</update_guid>
+        <update_guid_history>7099430796fe7550a3a6491ccd8fd071:-329190402,ad094b8355fe7550a6a60b6633685b8e:-2002513218,42a8cb43e5fe7550ff552e92848bde20:-666711525,6f68cb43d4fe7550c65579c8e8349a19:-2002513218,61680f0323fe7550d3241ba2da992e81:331393242,9e588f03fffe75502216c74c2be987ac:-1174746535,b1280b03a2fe7550773efa46568bf0e7:934545054</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-12-03 23:57:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_rule">sys_sg_ui_rule</sys_db_object>
+        <sys_id>61f25df0f57e41caa6a434b90ae2dfa4</sys_id>
+        <sys_metadata>bd280b031bfe7550f14374ce0a4bcbe4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New mobile UI Rule</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_rule_bd280b031bfe7550f14374ce0a4bcbe4</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_rule_bd280b031bfe7550f14374ce0a4bcbe4">f89943071bfe7550f14374ce0a4bcb71</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:57:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

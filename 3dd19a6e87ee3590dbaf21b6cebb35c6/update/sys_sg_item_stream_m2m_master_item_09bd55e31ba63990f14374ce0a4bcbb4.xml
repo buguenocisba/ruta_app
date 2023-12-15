@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Usuarios Afectados List Stream">b8bd55e31ba63990f14374ce0a4bcbac</item_stream>
+        <master_item display_value="Usuarios Afectados List Item Config">70bd55e31ba63990f14374ce0a4bcbb0</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-22 18:41:37</sys_created_on>
+        <sys_id>09bd55e31ba63990f14374ce0a4bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_09bd55e31ba63990f14374ce0a4bcbb4</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-22 18:41:37</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

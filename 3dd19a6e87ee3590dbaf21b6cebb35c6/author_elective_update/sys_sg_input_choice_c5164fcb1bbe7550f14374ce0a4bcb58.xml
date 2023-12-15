@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_choice">
+    <sys_sg_input_choice action="DELETE">
+        <image_url/>
+        <input display_value="Tipo de Liberación">a5e50fcb1bbe7550f14374ce0a4bcb4e</input>
+        <label>Derrame Sustancia Peligrosa</label>
+        <order>10</order>
+        <selected_image_url/>
+        <sys_class_name>sys_sg_input_choice</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-12-03 23:16:24</sys_created_on>
+        <sys_id>c5164fcb1bbe7550f14374ce0a4bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Derrame Sustancia Peligrosa</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_choice_c5164fcb1bbe7550f14374ce0a4bcb58</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:16:24</sys_updated_on>
+        <value>sustancia_peligrosa</value>
+    </sys_sg_input_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_input_choice_c5164fcb1bbe7550f14374ce0a4bcb58</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_choice"><sys_sg_input_choice action="INSERT_OR_UPDATE"><image_url/><input display_value="Tipo de Liberación">a5e50fcb1bbe7550f14374ce0a4bcb4e</input><label>Derrame Sustancia Peligrosa</label><order>10</order><selected_image_url/><sys_class_name>sys_sg_input_choice</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2023-12-03 23:16:24</sys_created_on><sys_id>c5164fcb1bbe7550f14374ce0a4bcb58</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Derrame Sustancia Peligrosa</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_input_choice_c5164fcb1bbe7550f14374ce0a4bcb58</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2023-12-03 23:16:24</sys_updated_on><value>sustancia_peligrosa</value></sys_sg_input_choice></record_update>]]></payload>
+        <payload_hash>517311873</payload_hash>
+        <record_name>Derrame Sustancia Peligrosa</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-12-03 23:16:24</sys_created_on>
+        <sys_id>0d164fcb1bbe7550f14374ce0a4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c31f7fba10000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:16:24</sys_updated_on>
+        <type>Input Choice</type>
+        <update_guid>01164fcbe3be755050f1df8fe803a45a</update_guid>
+        <update_guid_history>01164fcbe3be755050f1df8fe803a45a:517311873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-05 13:44:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input_choice">sys_sg_input_choice</sys_db_object>
+        <sys_id>35a52d35b80d41359868299472e99c09</sys_id>
+        <sys_metadata>c5164fcb1bbe7550f14374ce0a4bcb58</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Derrame Sustancia Peligrosa</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_input_choice_c5164fcb1bbe7550f14374ce0a4bcb58</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_choice_c5164fcb1bbe7550f14374ce0a4bcb58">0d164fcb1bbe7550f14374ce0a4bcb5a</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 13:44:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

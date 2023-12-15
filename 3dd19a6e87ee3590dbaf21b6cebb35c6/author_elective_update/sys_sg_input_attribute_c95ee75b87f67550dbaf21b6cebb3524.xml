@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_attribute">
+    <sys_sg_input_attribute action="DELETE">
+        <input display_value="Marca">ab2e675b87f67550dbaf21b6cebb3545</input>
+        <name>Conditions</name>
+        <sys_class_name>sys_sg_input_attribute</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-04 20:50:43</sys_created_on>
+        <sys_id>c95ee75b87f67550dbaf21b6cebb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conditions</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_attribute_c95ee75b87f67550dbaf21b6cebb3524</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-04 20:50:43</sys_updated_on>
+        <value>parentISEMPTY</value>
+    </sys_sg_input_attribute>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_input_attribute_c95ee75b87f67550dbaf21b6cebb3524</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_attribute"><sys_sg_input_attribute action="INSERT_OR_UPDATE"><input display_value="Marca">ab2e675b87f67550dbaf21b6cebb3545</input><name>Conditions</name><sys_class_name>sys_sg_input_attribute</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-12-04 20:50:43</sys_created_on><sys_id>c95ee75b87f67550dbaf21b6cebb3524</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Conditions</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_input_attribute_c95ee75b87f67550dbaf21b6cebb3524</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-12-04 20:50:43</sys_updated_on><value>parentISEMPTY</value></sys_sg_input_attribute></record_update>]]></payload>
+        <payload_hash>595633610</payload_hash>
+        <record_name>Conditions</record_name>
+        <reverted_from/>
+        <source>337f457487c83d50dbaf21b6cebb356c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-04 20:50:43</sys_created_on>
+        <sys_id>0d5ee75b87f67550dbaf21b6cebb3526</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c3698f58d0000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-04 20:50:43</sys_updated_on>
+        <type>Input Attribute</type>
+        <update_guid>015ee75bf0f67550275ccd545a6a8e26</update_guid>
+        <update_guid_history>015ee75bf0f67550275ccd545a6a8e26:595633610</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-05 21:40:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input_attribute">sys_sg_input_attribute</sys_db_object>
+        <sys_id>37399b7163f84fa7a7570fbffa61a589</sys_id>
+        <sys_metadata>c95ee75b87f67550dbaf21b6cebb3524</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conditions</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_input_attribute_c95ee75b87f67550dbaf21b6cebb3524</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_attribute_c95ee75b87f67550dbaf21b6cebb3524">0d5ee75b87f67550dbaf21b6cebb3526</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 21:40:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

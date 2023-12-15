@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_choice">
+    <sys_sg_input_choice action="DELETE">
+        <image_url/>
+        <input display_value="Color">2e36412587fe7910dbaf21b6cebb3546</input>
+        <label>Amarillo</label>
+        <order/>
+        <selected_image_url/>
+        <sys_class_name>sys_sg_input_choice</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-28 22:59:16</sys_created_on>
+        <sys_id>253259a18732b910dbaf21b6cebb351a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Amarillo</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_choice_253259a18732b910dbaf21b6cebb351a</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-28 22:59:16</sys_updated_on>
+        <value>amarillo</value>
+    </sys_sg_input_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_input_choice_253259a18732b910dbaf21b6cebb351a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_choice"><sys_sg_input_choice action="INSERT_OR_UPDATE"><image_url/><input display_value="Color">2e36412587fe7910dbaf21b6cebb3546</input><label>Amarillo</label><order/><selected_image_url/><sys_class_name>sys_sg_input_choice</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-11-28 22:59:16</sys_created_on><sys_id>253259a18732b910dbaf21b6cebb351a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Amarillo</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_input_choice_253259a18732b910dbaf21b6cebb351a</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-11-28 22:59:16</sys_updated_on><value>amarillo</value></sys_sg_input_choice></record_update>]]></payload>
+        <payload_hash>-1708928160</payload_hash>
+        <record_name>Amarillo</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-28 22:59:16</sys_created_on>
+        <sys_id>a13259a18732b910dbaf21b6cebb351d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c18287ed70000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-28 22:59:16</sys_updated_on>
+        <type>Input Choice</type>
+        <update_guid>a53259a18532b9108d88a51dec5eff1c</update_guid>
+        <update_guid_history>a53259a18532b9108d88a51dec5eff1c:-1708928160</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-04 14:12:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input_choice">sys_sg_input_choice</sys_db_object>
+        <sys_id>3b0478dd62ba462cac4214589fffb110</sys_id>
+        <sys_metadata>253259a18732b910dbaf21b6cebb351a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Amarillo</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_input_choice_253259a18732b910dbaf21b6cebb351a</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_choice_253259a18732b910dbaf21b6cebb351a">a13259a18732b910dbaf21b6cebb351d</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-04 14:12:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

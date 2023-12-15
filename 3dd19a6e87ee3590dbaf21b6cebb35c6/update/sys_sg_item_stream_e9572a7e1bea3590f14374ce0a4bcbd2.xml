@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item/>
+        <interleaved_field/>
+        <name>Vehículo Afectado</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-20 16:07:53</sys_created_on>
+        <sys_id>e9572a7e1bea3590f14374ce0a4bcbd2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Vehículo Afectado</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_item_stream_e9572a7e1bea3590f14374ce0a4bcbd2</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-20 16:45:07</sys_updated_on>
+        <table>x_inch_evt_servicios_prestados</table>
+    </sys_sg_item_stream>
+</record_update>

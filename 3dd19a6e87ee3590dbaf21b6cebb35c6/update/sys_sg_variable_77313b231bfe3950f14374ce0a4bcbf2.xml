@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_variable">
+    <sys_sg_variable action="INSERT_OR_UPDATE">
+        <name>Variable Km Fin</name>
+        <parameter_screen display_value="Editar Alteracion Form Imput">233173231bfe3950f14374ce0a4bcb3e</parameter_screen>
+        <parameter_section/>
+        <sys_class_name>sys_sg_variable</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-05 15:41:58</sys_created_on>
+        <sys_id>77313b231bfe3950f14374ce0a4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variable Km Fin</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_variable_77313b231bfe3950f14374ce0a4bcbf2</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-05 15:41:58</sys_updated_on>
+        <type>db_field</type>
+    </sys_sg_variable>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>Usuarios Afectados Record Screen View Config Element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-22 18:41:39</sys_created_on>
+        <sys_id>55bd95e31ba63990f14374ce0a4bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Usuarios Afectados Record Screen View Config Element</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_55bd95e31ba63990f14374ce0a4bcb59</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-22 18:41:39</sys_updated_on>
+        <view_config display_value="Usuarios Afectados Record Screen Card">59bd95e31ba63990f14374ce0a4bcb35</view_config>
+        <view_template_slot display_value="text_06">6feba26287a27590dbaf21b6cebb3594</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_view_config_element_55bd95e31ba63990f14374ce0a4bcb59</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>Usuarios Afectados Record Screen View Config Element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-11-22 18:41:39</sys_created_on><sys_id>55bd95e31ba63990f14374ce0a4bcb59</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Usuarios Afectados Record Screen View Config Element</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_view_config_element_55bd95e31ba63990f14374ce0a4bcb59</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-11-22 18:41:39</sys_updated_on><view_config display_value="Usuarios Afectados Record Screen Card">59bd95e31ba63990f14374ce0a4bcb35</view_config><view_template_slot display_value="text_06">6feba26287a27590dbaf21b6cebb3594</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>-548355691</payload_hash>
+        <record_name>Usuarios Afectados Record Screen View Config Element</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-22 18:41:39</sys_created_on>
+        <sys_id>91bd95e31ba63990f14374ce0a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bf8567ceb0000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-22 18:41:39</sys_updated_on>
+        <type>Card element</type>
+        <update_guid>19bd95e337a63990b2ac8fcc6d5a995a</update_guid>
+        <update_guid_history>19bd95e337a63990b2ac8fcc6d5a995a:-548355691</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-11-22 18:44:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>26b1e7671ee8450491e0a5e8734ae924</sys_id>
+        <sys_metadata>55bd95e31ba63990f14374ce0a4bcb59</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Usuarios Afectados Record Screen View Config Element</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_55bd95e31ba63990f14374ce0a4bcb59</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_55bd95e31ba63990f14374ce0a4bcb59">91bd95e31ba63990f14374ce0a4bcb5b</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-11-22 18:44:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

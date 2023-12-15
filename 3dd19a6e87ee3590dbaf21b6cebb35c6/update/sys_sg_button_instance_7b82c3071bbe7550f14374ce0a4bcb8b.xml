@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Editar Aspectos Ambientales">f782c3071bbe7550f14374ce0a4bcb86</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Editar</label>
+        <location>footer</location>
+        <name>Editar</name>
+        <order/>
+        <parent>bdfc052d87fe7910dbaf21b6cebb35d7</parent>
+        <parent_table>sys_sg_details_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2023-12-03 23:01:02</sys_created_on>
+        <sys_id>7b82c3071bbe7550f14374ce0a4bcb8b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Editar</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_button_instance_7b82c3071bbe7550f14374ce0a4bcb8b</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-04 14:37:54</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+</record_update>

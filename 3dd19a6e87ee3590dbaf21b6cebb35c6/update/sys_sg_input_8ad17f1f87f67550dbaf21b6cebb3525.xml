@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable display_value="Variable ¿Patente?">c6d563e71b7e3950f14374ce0a4bcbf3</autofill_variable>
+        <category/>
+        <description/>
+        <label>¿Patente?</label>
+        <mandatory>false</mandatory>
+        <name>u_slx_sin_dato</name>
+        <order>50</order>
+        <page/>
+        <parameter_screen display_value="Editar Vehiculo">172ea35b87f67550dbaf21b6cebb35ec</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-04 21:06:05</sys_created_on>
+        <sys_id>8ad17f1f87f67550dbaf21b6cebb3525</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>u_slx_sin_dato</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_8ad17f1f87f67550dbaf21b6cebb3525</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-06 13:39:13</sys_updated_on>
+        <type display_value="Choice">8dfb205517021010f2b43b9fadb9592e</type>
+    </sys_sg_input>
+</record_update>
