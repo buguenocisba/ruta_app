@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="DELETE">
+        <active>true</active>
+        <autofill_variable display_value="Variable Hora Aviso">fba82b6f1b7e3950f14374ce0a4bcbbd</autofill_variable>
+        <category/>
+        <description/>
+        <label>Hora Aviso Móvil</label>
+        <mandatory>false</mandatory>
+        <name>Hora Aviso Móvil</name>
+        <order>70</order>
+        <page/>
+        <parameter_screen display_value="Servicio">33d183c787bef150dbaf21b6cebb35a4</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-03 23:32:53</sys_created_on>
+        <sys_id>bad983cf87bef150dbaf21b6cebb3532</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Hora Aviso Móvil</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_bad983cf87bef150dbaf21b6cebb3532</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 21:17:01</sys_updated_on>
+        <type display_value="Date/Time">2c0c605517021010f2b43b9fadb9590a</type>
+    </sys_sg_input>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_input_bad983cf87bef150dbaf21b6cebb3532</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input"><sys_sg_input action="INSERT_OR_UPDATE"><active>true</active><autofill_variable display_value="Variable Hora Aviso">fba82b6f1b7e3950f14374ce0a4bcbbd</autofill_variable><category/><description/><label>Hora Aviso Móvil</label><mandatory>false</mandatory><name>Hora Aviso Móvil</name><order>70</order><page/><parameter_screen display_value="Servicio">33d183c787bef150dbaf21b6cebb35a4</parameter_screen><parameter_section/><placeholder/><readonly>false</readonly><sys_class_name>sys_sg_input</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-12-03 23:32:53</sys_created_on><sys_id>bad983cf87bef150dbaf21b6cebb3532</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Hora Aviso Móvil</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_input_bad983cf87bef150dbaf21b6cebb3532</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-19 21:17:01</sys_updated_on><type display_value="Date/Time">2c0c605517021010f2b43b9fadb9590a</type></sys_sg_input></record_update>]]></payload>
+        <payload_hash>-345083336</payload_hash>
+        <record_name>Hora Aviso Móvil</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 21:17:01</sys_created_on>
+        <sys_id>b27d6c521b7bf110f14374ce0a4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d239591cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 21:17:01</sys_updated_on>
+        <type>Input</type>
+        <update_guid>3a7d6c52257bf110a742da361c74cbe1</update_guid>
+        <update_guid_history>3a7d6c52257bf110a742da361c74cbe1:-345083336,256d6c525f7bf11051665d1f87ece124:1327956480,b23d6892557bf1103146416cca4213e6:-345083336,6b1dac52487bf110c58a5d31d18a3012:1327956480,6879cff89a9375d0a29cf25dfb41f4ab:-345083336,e5274bf0b39375d0a68b2d14cbc7bd98:40009043,9124cf38db5375d098a00b44792100cb:-1571316534,c3ae3e78ca1375d0581d680adf53689a:1494059883,c5a92fefe17e3950c93d02be05cd9bef:-345083336,7ad983cfdebef1508e1be2703369fc34:1327956480</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-01-22 12:12:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input">sys_sg_input</sys_db_object>
+        <sys_id>3af2735efba14b6a90325f4a837d4d24</sys_id>
+        <sys_metadata>bad983cf87bef150dbaf21b6cebb3532</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hora Aviso Móvil</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_input_bad983cf87bef150dbaf21b6cebb3532</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_bad983cf87bef150dbaf21b6cebb3532">b27d6c521b7bf110f14374ce0a4bcbe2</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-01-22 12:12:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute">
+    <sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE">
+        <description>text_09_FieldValue</description>
+        <name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name>
+        <sys_class_name>sys_sg_view_config_element_attribute</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-01-02 18:59:06</sys_created_on>
+        <sys_id>bcea24bc1b2bf550f14374ce0a4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_attribute_bcea24bc1b2bf550f14374ce0a4bcbd0</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-01-02 18:59:06</sys_updated_on>
+        <translated_value/>
+        <value>u_slx_asistente_ruta_conductor_manual</value>
+        <view_config_element display_value="text_09_element">f8ea24bc1b2bf550f14374ce0a4bcbce</view_config_element>
+    </sys_sg_view_config_element_attribute>
+</record_update>

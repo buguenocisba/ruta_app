@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_policy_rule">
+    <sys_sg_ui_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_slx_evento_de_transito.u_slx_tipo_accidente_sc</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_sg_ui_policy_rule</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-01-18 19:48:20</sys_created_on>
+        <sys_id>829fcfb51bfb7110f14374ce0a4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_evento_de_transito.u_slx_tipo_accidente_sc</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_ui_policy_rule_829fcfb51bfb7110f14374ce0a4bcb61</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-01-18 19:48:20</sys_updated_on>
+        <table>x_inch_evt_servicios_prestados</table>
+        <ui_policy display_value="SLX Ocultar Campos Servicio">91ee0fb51bfb7110f14374ce0a4bcbba</ui_policy>
+        <visible>true</visible>
+    </sys_sg_ui_policy_rule>
+</record_update>

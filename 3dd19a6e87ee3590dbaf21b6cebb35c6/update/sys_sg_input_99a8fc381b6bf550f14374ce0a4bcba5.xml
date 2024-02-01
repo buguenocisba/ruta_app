@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable/>
+        <category/>
+        <description/>
+        <label>Odómetro Inicio</label>
+        <mandatory>false</mandatory>
+        <name>odometro_inicio</name>
+        <order>900</order>
+        <page/>
+        <parameter_screen display_value="Nuevo Servicio Externo form screen">93a2fcf01b6bf550f14374ce0a4bcb72</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-01-02 19:59:13</sys_created_on>
+        <sys_id>99a8fc381b6bf550f14374ce0a4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Odómetro Inicio</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_99a8fc381b6bf550f14374ce0a4bcba5</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-01-02 19:59:13</sys_updated_on>
+        <type display_value="Number">8ceb241517021010f2b43b9fadb959a3</type>
+    </sys_sg_input>
+</record_update>

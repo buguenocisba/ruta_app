@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable display_value="Variable Atenciones">bc74c5f41babf550f14374ce0a4bcb24</autofill_variable>
+        <category/>
+        <description/>
+        <label>Atenciones Prestadas</label>
+        <mandatory>false</mandatory>
+        <name>Atenciones Prestadas</name>
+        <order>500</order>
+        <page/>
+        <parameter_screen display_value="Editar Servicio Externo form screen">30d1c5701babf550f14374ce0a4bcb3f</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-01-22 12:53:20</sys_created_on>
+        <sys_id>75f6924b1bbb7910f14374ce0a4bcba8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Atenciones Prestadas</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_75f6924b1bbb7910f14374ce0a4bcba8</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-01-22 12:53:31</sys_updated_on>
+        <type display_value="Reference">770c605517021010f2b43b9fadb95900</type>
+    </sys_sg_input>
+</record_update>

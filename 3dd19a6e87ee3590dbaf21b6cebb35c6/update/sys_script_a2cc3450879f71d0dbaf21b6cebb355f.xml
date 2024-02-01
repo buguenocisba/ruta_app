@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_inch_evt_usuarios_afectados</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_inch_evt_usuarios_afectados">u_slx_tipo_documento=cedula_nacional^EQ<item display_value="Cedula Nacional" endquery="false" field="u_slx_tipo_documento" goto="false" newquery="false" operator="=" or="false" value="cedula_nacional"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Validar Rut al Insert/Update</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var rutCompleto = current.u_slx_n_identificacion;
+
+    var Fn = {
+        // Valida el rut con su cadena completa "XXXXXXXX-X"
+        validaRut: function(rutCompleto) {
+            if (!/^[0-9]+[-|‐]{1}[0-9kK]{1}$/.test(rutCompleto)) {
+                return false;
+            }
+            var tmp = rutCompleto.split('-');
+            var digv = tmp[1];
+            var rut = tmp[0];
+            if (digv == 'K') {
+                digv = 'k';
+            }
+            return (Fn.dv(rut) == digv);
+        },
+        dv: function(T) {
+            var M = 0,
+                S = 1;
+            for (; T; T = Math.floor(T / 10)) {
+                S = (S + T % 10 * (9 - M++ % 6)) % 11;
+            }
+            return S ? S - 1 : 'k';
+        }
+    };
+    // Uso de la función
+    //alert( Fn.validaRut(rutCompleto) ? 'Valido' : 'inválido');
+    //var alerta; = Fn.validaRut(rutCompleto) ? '' : g_form.addErrorMessage('El rut ingresado no es inválido');
+    if (Fn.validaRut(rutCompleto)) {
+
+    } else {
+		gs.addErrorMessage('El Rut "' + rutCompleto + '" no es válido');
+        current.setAbortAction(true);
+    }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-19 20:48:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a2cc3450879f71d0dbaf21b6cebb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Validar Rut al Insert/Update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_script_a2cc3450879f71d0dbaf21b6cebb355f</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-19 20:48:19</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a2cc3450879f71d0dbaf21b6cebb355f"/>
+</record_update>

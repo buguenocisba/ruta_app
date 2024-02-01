@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_relationship_data_item">
+    <sys_sg_relationship_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Servicios Prestados Externos</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <offline_relation_query_condition/>
+        <query_condition table="x_inch_evt_servicios_prestados">u_slx_origen_movil_asistencia=17d008d21bab7410f14374ce0a4bcb7b<item display_table="x_inch_evt_origen_y_tipo_movil" display_value="Otro" endquery="false" field="u_slx_origen_movil_asistencia" goto="false" newquery="false" operator="=" or="false" value="17d008d21bab7410f14374ce0a4bcb7b"/>
+        </query_condition>
+        <query_condition_script><![CDATA[(function getQueryString(input) {
+	// Type appropriate comment here, and begin script below
+	var queryString = '';
+	return queryString;
+})(input);]]></query_condition_script>
+        <relationship>x_inch_evt_total_atenciones.u_slx_servicio_prestado</relationship>
+        <sys_class_name>sys_sg_relationship_data_item</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-01-02 18:41:59</sys_created_on>
+        <sys_id>4af6e0b81b2bf550f14374ce0a4bcb67</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Servicios Prestados Externos</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_relationship_data_item_4af6e0b81b2bf550f14374ce0a4bcb67</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-01-02 18:43:18</sys_updated_on>
+        <table>x_inch_evt_servicios_prestados</table>
+        <table_related_to>x_inch_evt_servicios_prestados</table_related_to>
+    </sys_sg_relationship_data_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_relationship_data_item_4af6e0b81b2bf550f14374ce0a4bcb67</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_sg_relationship_data_item"&gt;&lt;sys_sg_relationship_data_item action="INSERT_OR_UPDATE"&gt;&lt;condition_type&gt;declarative&lt;/condition_type&gt;&lt;description/&gt;&lt;group_by/&gt;&lt;instance_relative_url_qc/&gt;&lt;name&gt;Servicios Prestados Externos&lt;/name&gt;&lt;offline_query_condition/&gt;&lt;offline_query_condition_script/&gt;&lt;offline_relation_query_condition/&gt;&lt;query_condition table="x_inch_evt_servicios_prestados"&gt;u_slx_origen_movil_asistencia=17d008d21bab7410f14374ce0a4bcb7b&lt;item display_table="x_inch_evt_origen_y_tipo_movil" display_value="Otro" endquery="false" field="u_slx_origen_movil_asistencia" goto="false" newquery="false" operator="=" or="false" value="17d008d21bab7410f14374ce0a4bcb7b"/&gt;&lt;/query_condition&gt;&lt;query_condition_script&gt;&lt;![CDATA[(function getQueryString(input) {
+	// Type appropriate comment here, and begin script below
+	var queryString = '';
+	return queryString;
+})(input);]]&gt;&lt;/query_condition_script&gt;&lt;relationship&gt;x_inch_evt_total_atenciones.u_slx_servicio_prestado&lt;/relationship&gt;&lt;sys_class_name&gt;sys_sg_relationship_data_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-02 18:41:59&lt;/sys_created_on&gt;&lt;sys_id&gt;4af6e0b81b2bf550f14374ce0a4bcb67&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Servicios Prestados Externos&lt;/sys_name&gt;&lt;sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6"&gt;3dd19a6e87ee3590dbaf21b6cebb35c6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RutaApp"&gt;3dd19a6e87ee3590dbaf21b6cebb35c6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_sg_relationship_data_item_4af6e0b81b2bf550f14374ce0a4bcb67&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-02 18:43:18&lt;/sys_updated_on&gt;&lt;table&gt;x_inch_evt_servicios_prestados&lt;/table&gt;&lt;table_related_to&gt;x_inch_evt_servicios_prestados&lt;/table_related_to&gt;&lt;/sys_sg_relationship_data_item&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-688878152</payload_hash>
+        <record_name>Servicios Prestados Externos</record_name>
+        <reverted_from/>
+        <source>f5e268f31b767950f14374ce0a4bcbfa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-01-02 18:43:18</sys_created_on>
+        <sys_id>1547a0f81b2bf550f14374ce0a4bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ccb7cbc580000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-01-02 18:43:18</sys_updated_on>
+        <type>Relationship Data Item</type>
+        <update_guid>1947e0b8222bf550d3669f68457d4cb9</update_guid>
+        <update_guid_history>1947e0b8222bf550d3669f68457d4cb9:-688878152,0af6e0b8462bf550920118228f27d469:-2139257484</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-01-02 18:44:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_relationship_data_item">sys_sg_relationship_data_item</sys_db_object>
+        <sys_id>9205ab584e864f2b9b91cd963aa0ee31</sys_id>
+        <sys_metadata>4af6e0b81b2bf550f14374ce0a4bcb67</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Servicios Prestados Externos</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_relationship_data_item_4af6e0b81b2bf550f14374ce0a4bcb67</sys_update_name>
+        <sys_update_version display_value="sys_sg_relationship_data_item_4af6e0b81b2bf550f14374ce0a4bcb67">1547a0f81b2bf550f14374ce0a4bcb66</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-01-02 18:44:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

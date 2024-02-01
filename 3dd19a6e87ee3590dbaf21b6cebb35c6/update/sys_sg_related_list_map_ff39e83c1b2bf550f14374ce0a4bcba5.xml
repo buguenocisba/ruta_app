@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_related_list_map">
+    <sys_sg_related_list_map action="INSERT_OR_UPDATE">
+        <context_field/>
+        <destination_screen display_value="Servicios Prestados Externos">af16e8381b2bf550f14374ce0a4bcbfb</destination_screen>
+        <related_list_screen display_value="Registros Relacionados">62dde5bb1b267110f14374ce0a4bcb2e</related_list_screen>
+        <relationship>x_inch_evt_total_atenciones.u_slx_servicio_prestado</relationship>
+        <sys_class_name>sys_sg_related_list_map</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-01-02 18:51:56</sys_created_on>
+        <sys_id>ff39e83c1b2bf550f14374ce0a4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>af16e8381b2bf550f14374ce0a4bcbfb</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_related_list_map_ff39e83c1b2bf550f14374ce0a4bcba5</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-01-02 18:51:56</sys_updated_on>
+    </sys_sg_related_list_map>
+</record_update>

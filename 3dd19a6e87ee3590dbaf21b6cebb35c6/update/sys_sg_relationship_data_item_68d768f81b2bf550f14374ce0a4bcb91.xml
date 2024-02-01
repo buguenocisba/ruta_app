@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_relationship_data_item">
+    <sys_sg_relationship_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Servicios Prestados Externos</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <offline_relation_query_condition/>
+        <query_condition table="x_inch_evt_servicios_prestados">u_slx_origen_movil_asistencia=17d008d21bab7410f14374ce0a4bcb7b^EQ<item display_table="x_inch_evt_origen_y_tipo_movil" display_value="Otro" endquery="false" field="u_slx_origen_movil_asistencia" goto="false" newquery="false" operator="=" or="false" value="17d008d21bab7410f14374ce0a4bcb7b"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <query_condition_script/>
+        <relationship>REL:2bf1fcb01b6bf550f14374ce0a4bcb61</relationship>
+        <sys_class_name>sys_sg_relationship_data_item</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-01-02 18:45:42</sys_created_on>
+        <sys_id>68d768f81b2bf550f14374ce0a4bcb91</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Servicios Prestados Externos</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_relationship_data_item_68d768f81b2bf550f14374ce0a4bcb91</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-01-02 19:30:59</sys_updated_on>
+        <table>x_inch_evt_servicios_prestados</table>
+        <table_related_to>x_inch_evt_servicios_prestados</table_related_to>
+    </sys_sg_relationship_data_item>
+</record_update>

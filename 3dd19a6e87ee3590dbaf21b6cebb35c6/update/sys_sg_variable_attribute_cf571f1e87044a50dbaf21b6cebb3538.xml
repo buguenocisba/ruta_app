@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_variable_attribute">
+    <sys_sg_variable_attribute action="INSERT_OR_UPDATE">
+        <name>FieldName</name>
+        <sys_class_name>sys_sg_variable_attribute</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-02-01 19:54:56</sys_created_on>
+        <sys_id>cf571f1e87044a50dbaf21b6cebb3538</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FieldName</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_variable_attribute_cf571f1e87044a50dbaf21b6cebb3538</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-02-01 19:54:56</sys_updated_on>
+        <value>u_slx_evento_de_transito.u_slx_fecha_aviso_ce</value>
+        <variable display_value="Variable Fecha Ce">8f571f1e87044a50dbaf21b6cebb3535</variable>
+    </sys_sg_variable_attribute>
+</record_update>

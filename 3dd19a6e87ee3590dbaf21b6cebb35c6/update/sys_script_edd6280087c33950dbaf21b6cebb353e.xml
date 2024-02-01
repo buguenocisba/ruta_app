@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -15,7 +15,11 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition/>
+        <filter_condition table="x_inch_evt_servicios_prestados">u_slx_hora_aviso_movilVALCHANGES^ORu_slx_hora_llegada_movilVALCHANGES^ORu_slx_hora_termino_movilVALCHANGES^EQ<item endquery="false" field="u_slx_hora_aviso_movil" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="u_slx_hora_llegada_movil" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_hora_termino_movil" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
         <is_rest>false</is_rest>
         <message/>
         <name>SLX Validar Fechas </name>
@@ -30,37 +34,34 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
     // Add your code here
+    var fecha_ce = new GlideDateTime(current.u_slx_evento_de_transito.u_slx_fecha_aviso_ce);
+    var fecha_aviso = new GlideDateTime(current.u_slx_hora_aviso_movil);
+    var fecha_llegada = new GlideDateTime(current.u_slx_hora_llegada_movil);
+    var fecha_termino = new GlideDateTime(current.u_slx_hora_termino_movil);
+    var gtd = new GlideDateTime();
 
-    var fecha_ce = current.u_slx_fecha_aviso_ce;
-    var fecha_aviso = current.u_slx_hora_aviso_movil;
-    var fecha_llegada = current.u_slx_hora_llegada_movil;
-    var fecha_termino = current.u_slx_hora_termino_movil;
-	var gtd = new GlideDateTime();
-
-	gs.addInfoMessage(gtd);
-	gs.addInfoMessage(fecha_ce);
-	gs.addInfoMessage(fecha_aviso);
-	gs.addInfoMessage(fecha_llegada);
-	gs.addInfoMessage(fecha_termino);
-	
-
-    if (fecha_ce > fecha_aviso) {
-        gs.addErrorMessage("La fecha debe ser posterior o igual a la Fecha de Aviso CE");
+    if (fecha_ce == null || fecha_ce == '') {
+        gs.addErrorMessage("La Fecha de Aviso CE se encuentra vacía, se debe ingresar antes de llenar las horas");
         current.setAbortAction(true);
     }
 
-    if (fecha_aviso >= fecha_llegada) {
-        gs.addErrorMessage("La fecha debe ser posterior a la Hora de Aviso");
+    if (fecha_ce.compareTo(fecha_aviso) >= 0) {
+        gs.addErrorMessage("La fecha de aviso debe ser posterior o igual a la Fecha de Aviso CE");
         current.setAbortAction(true);
     }
 
-    if (fecha_llegada >= fecha_termino) {
-        gs.addErrorMessage("La fecha debe ser posterior a la Hora de Llegada");
+    if (fecha_aviso.compareTo(fecha_llegada) == 1) {
+        gs.addErrorMessage("La fecha de llegada debe ser posterior a la Hora de Aviso");
         current.setAbortAction(true);
     }
 
-    if (gtd <= fecha_termino) {
-        gs.addErrorMessage("La Fecha y hora debe ser anterior a la actual");
+    if (fecha_llegada.compareTo(fecha_termino) == 1) {
+        gs.addErrorMessage("La fecha término debe ser posterior a la Hora de Llegada");
+        current.setAbortAction(true);
+    }
+
+    if (gtd.compareTo(fecha_termino) == -1) {
+        gs.addErrorMessage("La Fecha y hora de término debe ser anterior a la actual");
         current.setAbortAction(true);
     }
 
@@ -71,7 +72,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>edd6280087c33950dbaf21b6cebb353e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>SLX Validar Fechas </sys_name>
         <sys_overrides/>
         <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
@@ -79,7 +80,7 @@
         <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
         <sys_update_name>sys_script_edd6280087c33950dbaf21b6cebb353e</sys_update_name>
         <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2023-12-06 15:29:18</sys_updated_on>
+        <sys_updated_on>2024-02-01 20:08:15</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

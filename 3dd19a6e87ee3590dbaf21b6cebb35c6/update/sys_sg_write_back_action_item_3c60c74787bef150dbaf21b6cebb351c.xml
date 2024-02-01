@@ -9,16 +9,16 @@
         <sys_created_by>slx.bb</sys_created_by>
         <sys_created_on>2023-12-03 22:51:30</sys_created_on>
         <sys_id>3c60c74787bef150dbaf21b6cebb351c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Actualizar Servicio</sys_name>
         <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
         <sys_update_name>sys_sg_write_back_action_item_3c60c74787bef150dbaf21b6cebb351c</sys_update_name>
         <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2023-12-03 23:32:53</sys_updated_on>
+        <sys_updated_on>2024-02-01 19:42:18</sys_updated_on>
         <table>x_inch_evt_servicios_prestados</table>
-        <template>u_slx_movil_asistencia={{Input: Movil Asistencia}}^u_slx_patente_movil={{Input: Patente Movil}}^u_slx_proveedor_organismos={{Input: Proveedor Organismos}}^u_slx_atenciones_prestadasLIKE{{Input: Atenciones Prestadas}}^u_slx_hora_aviso_movilON{{Input: Hora Aviso Móvil}}^u_slx_hora_llegada_movilON{{Input: Hora llegada Móvil}}^u_slx_hora_termino_movilON{{Input: Hora Termino Móvil}}^u_slx_odometro_inicio={{Input: Odómetro Inicio}}^u_slx_odometro_llegada={{Input: Odómetro Llegada}}^u_slx_odometro_fin_asist={{Input: Odómetro Fin}}^u_slx_descripcion_atencion={{Input: Observación Servicio}}</template>
+        <template>u_slx_odometro_inicio={{Input: Odómetro Inicio}}^u_slx_odometro_llegada={{Input: Odómetro Llegada}}^u_slx_odometro_fin_asist={{Input: Odómetro Fin}}^u_slx_descripcion_atencion={{Input: Observación Servicio}}^u_slx_atenciones_prestadas={{Input: Atenciones Prestadas}}^u_slx_hora_aviso_movil={{Input: Hora Aviso Movil}}^u_slx_hora_llegada_movil={{Input: Hora llegada Móvil}}^u_slx_hora_llegada_nowmobile={{Input: Hora Termino Móvil}}^EQ</template>
         <type>update</type>
         <use_current_record_as_condition>true</use_current_record_as_condition>
         <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="DELETE">
+        <active>true</active>
+        <autofill_variable display_value="Variable Movil de Asistencia">9a28ab2f1b7e3950f14374ce0a4bcb69</autofill_variable>
+        <category/>
+        <description/>
+        <label>Móvil Asistencia</label>
+        <mandatory>false</mandatory>
+        <name>Movil Asistencia</name>
+        <order>20</order>
+        <page/>
+        <parameter_screen display_value="Servicio">33d183c787bef150dbaf21b6cebb35a4</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>true</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-03 22:58:00</sys_created_on>
+        <sys_id>77d183c787bef150dbaf21b6cebb35a8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Móvil Asistencia</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_77d183c787bef150dbaf21b6cebb35a8</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-19 19:46:27</sys_updated_on>
+        <type display_value="Reference">770c605517021010f2b43b9fadb95900</type>
+    </sys_sg_input>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_input_77d183c787bef150dbaf21b6cebb35a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input"><sys_sg_input action="INSERT_OR_UPDATE"><active>true</active><autofill_variable display_value="Variable Movil de Asistencia">9a28ab2f1b7e3950f14374ce0a4bcb69</autofill_variable><category/><description/><label>Móvil Asistencia</label><mandatory>false</mandatory><name>Movil Asistencia</name><order>20</order><page/><parameter_screen display_value="Servicio">33d183c787bef150dbaf21b6cebb35a4</parameter_screen><parameter_section/><placeholder/><readonly>true</readonly><sys_class_name>sys_sg_input</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-12-03 22:58:00</sys_created_on><sys_id>77d183c787bef150dbaf21b6cebb35a8</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Móvil Asistencia</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_input_77d183c787bef150dbaf21b6cebb35a8</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-12-19 19:46:27</sys_updated_on><type display_value="Reference">770c605517021010f2b43b9fadb95900</type></sys_sg_input></record_update>]]></payload>
+        <payload_hash>981956936</payload_hash>
+        <record_name>Móvil Asistencia</record_name>
+        <reverted_from/>
+        <source>f5e268f31b767950f14374ce0a4bcbfa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-19 19:46:27</sys_created_on>
+        <sys_id>b17fac9c871f71d0dbaf21b6cebb3591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c839d831a0000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-19 19:46:27</sys_updated_on>
+        <type>Input</type>
+        <update_guid>397fac9caf1f71d07da3a39638c2ca90</update_guid>
+        <update_guid_history>397fac9caf1f71d07da3a39638c2ca90:981956936,b46fac9ca81f71d0dd3d1afa880a4c8c:-1858327307,200fe49cf51f71d057f82ecdcab930cb:981956936,4869a3efef7e3950e1fd649c6eee98d2:1351057350,da4e8bc312fef1507c51612fd4930402:1650863385,da4e8bc312fef1507c51612fd4930402:1650863385,57adcf8309fef1500426935004201166:-900150330,57adcf8309fef1500426935004201166:-900150330,d6644f4b86bef150b8bd97888396526e:-1449627873,7e34cb4bd6bef150af4a16f62f2d3914:796259089,bfd147c7dabef150abfb9d58e7f4acad:-1847789056</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-19 20:02:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input">sys_sg_input</sys_db_object>
+        <sys_id>21ca4ee62cda4412bd0691cf15c621a4</sys_id>
+        <sys_metadata>77d183c787bef150dbaf21b6cebb35a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Móvil Asistencia</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_input_77d183c787bef150dbaf21b6cebb35a8</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_77d183c787bef150dbaf21b6cebb35a8">b17fac9c871f71d0dbaf21b6cebb3591</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-19 20:02:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

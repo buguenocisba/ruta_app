@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="DELETE">
+        <active>true</active>
+        <autofill_variable display_value="Variable Patente movil">e1e82f6f1b7e3950f14374ce0a4bcbdf</autofill_variable>
+        <category/>
+        <description/>
+        <label>Patente Móvil</label>
+        <mandatory>false</mandatory>
+        <name>Patente Movil</name>
+        <order>30</order>
+        <page/>
+        <parameter_screen display_value="Servicio">33d183c787bef150dbaf21b6cebb35a4</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>true</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-03 23:08:18</sys_created_on>
+        <sys_id>fa344b4b87bef150dbaf21b6cebb351b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Patente Móvil</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_fa344b4b87bef150dbaf21b6cebb351b</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-19 19:45:51</sys_updated_on>
+        <type display_value="Reference">770c605517021010f2b43b9fadb95900</type>
+    </sys_sg_input>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_input_fa344b4b87bef150dbaf21b6cebb351b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input"><sys_sg_input action="INSERT_OR_UPDATE"><active>true</active><autofill_variable display_value="Variable Patente movil">e1e82f6f1b7e3950f14374ce0a4bcbdf</autofill_variable><category/><description/><label>Patente Móvil</label><mandatory>false</mandatory><name>Patente Movil</name><order>30</order><page/><parameter_screen display_value="Servicio">33d183c787bef150dbaf21b6cebb35a4</parameter_screen><parameter_section/><placeholder/><readonly>true</readonly><sys_class_name>sys_sg_input</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-12-03 23:08:18</sys_created_on><sys_id>fa344b4b87bef150dbaf21b6cebb351b</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Patente Móvil</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_input_fa344b4b87bef150dbaf21b6cebb351b</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-12-19 19:45:51</sys_updated_on><type display_value="Reference">770c605517021010f2b43b9fadb95900</type></sys_sg_input></record_update>]]></payload>
+        <payload_hash>-270522983</payload_hash>
+        <record_name>Patente Móvil</record_name>
+        <reverted_from/>
+        <source>f5e268f31b767950f14374ce0a4bcbfa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-19 19:45:51</sys_created_on>
+        <sys_id>595f689c871f71d0dbaf21b6cebb35bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c839cf8a40000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-19 19:45:51</sys_updated_on>
+        <type>Input</type>
+        <update_guid>dd5f689cf41f71d037eaf19c850551bb</update_guid>
+        <update_guid_history>dd5f689cf41f71d037eaf19c850551bb:-270522983,404fe89c161f71d016242549face4206:1458981444,770f289c161f71d0324809fc71750def:-270522983,09c9a323e2be39508a13b330f4945538:-930330760,d2644f4bd0bef150b00739b09744b774:-1642886034,b6344b4b42bef15022eaba06bdc7291d:-1551887837</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-19 20:02:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input">sys_sg_input</sys_db_object>
+        <sys_id>19b9fb19842b4b4c994521f44c5f5239</sys_id>
+        <sys_metadata>fa344b4b87bef150dbaf21b6cebb351b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patente Móvil</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_input_fa344b4b87bef150dbaf21b6cebb351b</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_fa344b4b87bef150dbaf21b6cebb351b">595f689c871f71d0dbaf21b6cebb35bc</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-19 20:02:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

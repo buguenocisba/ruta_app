@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_inch_evt_servicios_prestados</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_inch_evt_servicios_prestados">u_slx_tramoVALCHANGES^ORu_slx_tipo_viaVALCHANGES^ORu_slx_calzadaVALCHANGES^ORu_slx_pistaVALCHANGES^ORu_slx_kmVALCHANGES^ORu_slx_tipo_accidente_scVALCHANGES^ORu_slx_causa_probable_mopVALCHANGES^ORu_slx_ubicacion_relativa_pistaVALCHANGES^ORu_slx_condicion_calzadaVALCHANGES^ORdescriptionVALCHANGES^EQ<item endquery="false" field="u_slx_tramo" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="u_slx_tipo_via" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_calzada" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_pista" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_km" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_tipo_accidente_sc" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_causa_probable_mop" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_ubicacion_relativa_pista" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="u_slx_condicion_calzada" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="description" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Actualiza Evento</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var evt = new GlideRecord("x_inch_evt_eventos_de_transito");
+    evt.get(current.u_slx_evento_de_transito);
+
+    evt.u_slx_calzada = current.u_slx_calzada;
+    evt.u_slx_pista = current.u_slx_pista;
+    evt.u_slx_km = current.u_slx_km;
+    evt.u_slx_tipo_accidente_sc = current.u_slx_tipo_accidente_sc;
+    evt.u_slx_causa_probable_mop = current.u_slx_causa_probable_mop;
+    evt.u_slx_ubicacion_relativa_pista = current.u_slx_ubicacion_relativa_pista;
+    evt.u_slx_condicion_calzada = current.u_slx_condicion_calzada;
+	evt.description = current.description;
+
+	if(evt.update() == null) {
+		current.setAbortAction(true);
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-12-19 23:35:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9db2e5dc8757b1d0dbaf21b6cebb353b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>SLX Actualiza Evento</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_script_9db2e5dc8757b1d0dbaf21b6cebb353b</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-12-19 23:59:33</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=9db2e5dc8757b1d0dbaf21b6cebb353b"/>
+</record_update>
