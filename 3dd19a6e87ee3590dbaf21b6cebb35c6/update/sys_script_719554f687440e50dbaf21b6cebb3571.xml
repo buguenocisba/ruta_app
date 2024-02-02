@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_inch_evt_servicios_prestados</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_inch_evt_servicios_prestados">u_slx_liberacion_sustanciaVALCHANGES^ORu_slx_tipo_liberacionVALCHANGES^ORu_slx_nombre_sustanciaVALCHANGES^ORu_slx_cantidad_transportadaVALCHANGES^ORu_slx_cantidad_derramadaVALCHANGES^ORu_slx_medio_impactadoVALCHANGES^ORu_slx_comunades_caserios_cercanosVALCHANGES^ORu_slx_tipo_disposicionVALCHANGES^ORu_slx_obs_aspectos_ambientalesVALCHANGES^ORu_slx_sustancia_codigoVALCHANGES^EQ<item display_value="-- None --" endquery="false" field="u_slx_liberacion_sustancia" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item display_value="-- None --" endquery="false" field="u_slx_tipo_liberacion" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_nombre_sustancia" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_cantidad_transportada" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_cantidad_derramada" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_medio_impactado" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="u_slx_comunades_caserios_cercanos" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="u_slx_tipo_disposicion" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_obs_aspectos_ambientales" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_slx_sustancia_codigo" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Actualizar Aspectos Ambientales EVT</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var gr = new GlideRecord("x_inch_evt_eventos_de_transito");
+    gr.addQuery("sys_id", current.u_slx_evento_de_transito);
+    gr.query();
+    if (gr.next()) {
+        gr.u_slx_liberacion_sustancia = current.u_slx_liberacion_sustancia;
+        gr.u_slx_tipo_liberacion = current.u_slx_tipo_liberacion;
+        gr.u_slx_nombre_sustancia = current.u_slx_nombre_sustancia;
+        gr.u_slx_cantidad_transportada = current.u_slx_cantidad_transportada;
+        gr.u_slx_cantidad_derramada = current.u_slx_cantidad_derramada;
+        gr.u_slx_medio_impactado = current.u_slx_medio_impactado;
+        gr.u_slx_comunades_caserios_cercanos = current.u_slx_comunades_caserios_cercanos;
+        gr.u_slx_tipo_disposicion = current.u_slx_tipo_disposicion;
+		gr.u_slx_obs_aspectos_ambientales = current.u_slx_obs_aspectos_ambientales;
+		gr.u_slx_distancia_aproximada = current.u_slx_distancia_aproximada;
+		gr.u_slx_tipo_disposicion = current.u_slx_tipo_disposicion;
+		gr.u_slx_sustancia_codigo = current.u_slx_sustancia_codigo;
+		gr.update();
+    }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-02-02 19:13:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>719554f687440e50dbaf21b6cebb3571</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SLX Actualizar Aspectos Ambientales EVT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_script_719554f687440e50dbaf21b6cebb3571</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-02-02 20:42:20</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=719554f687440e50dbaf21b6cebb3571"/>
+</record_update>

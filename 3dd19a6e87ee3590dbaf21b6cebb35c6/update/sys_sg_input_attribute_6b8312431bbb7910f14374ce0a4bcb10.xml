@@ -6,14 +6,14 @@
         <sys_created_by>slx.bb</sys_created_by>
         <sys_created_on>2024-01-22 12:38:26</sys_created_on>
         <sys_id>6b8312431bbb7910f14374ce0a4bcb10</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Field</sys_name>
         <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
         <sys_update_name>sys_sg_input_attribute_6b8312431bbb7910f14374ce0a4bcb10</sys_update_name>
         <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2024-01-22 12:41:50</sys_updated_on>
+        <sys_updated_on>2024-02-02 18:32:42</sys_updated_on>
         <value>u_slx_medio_impactado</value>
     </sys_sg_input_attribute>
 </record_update>

@@ -9,16 +9,16 @@
         <sys_created_by>slx.bs</sys_created_by>
         <sys_created_on>2023-12-03 23:01:01</sys_created_on>
         <sys_id>3f8287c31bbe7550f14374ce0a4bcba2</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Ambientales action item</sys_name>
         <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
         <sys_update_name>sys_sg_write_back_action_item_3f8287c31bbe7550f14374ce0a4bcba2</sys_update_name>
         <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2023-12-13 14:29:42</sys_updated_on>
+        <sys_updated_on>2024-02-02 20:15:44</sys_updated_on>
         <table>x_inch_evt_servicios_prestados</table>
-        <template>u_slx_liberacion_sustancia={{Input: u_slx_liberacion_sustancia}}^u_slx_tipo_liberacion={{Input: u_slx_tipo_liberacion}}^u_slx_cantidad_derramada={{Input: Cantidad sustancia derramada (Lt)}}^u_slx_cantidad_transportada={{Input: Cantidad sustancia transportada (Lt)}}^u_slx_comunades_caserios_cercanos={{Input: Comunidades o caseríos cercanos}}^u_slx_tipo_disposicion={{Input: Tipo disposición}}^u_slx_medio_impactadoLIKE{{Input: Medio impactado}}^u_slx_nombre_sustancia={{Input: Nombre de sustancia}}</template>
+        <template>u_slx_liberacion_sustancia={{Input: u_slx_liberacion_sustancia}}^u_slx_tipo_liberacion={{Input: u_slx_tipo_liberacion}}^u_slx_cantidad_derramada={{Input: Cantidad sustancia derramada (Lt)}}^u_slx_cantidad_transportada={{Input: Cantidad sustancia transportada (Lt)}}^u_slx_comunades_caserios_cercanos={{Input: u_slx_comunidades}}^u_slx_tipo_disposicion={{Input: Tipo disposición}}^u_slx_nombre_sustancia={{Input: Nombre de sustancia}}^u_slx_distancia_aproximada={{Input: Distancia Aproximada}}^u_slx_medio_impactado={{Input: Medio Impactado}}^u_slx_sustancia_codigo={{Input: Sustancia Código N° UN}}^EQ</template>
         <type>update</type>
         <use_current_record_as_condition>true</use_current_record_as_condition>
         <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
