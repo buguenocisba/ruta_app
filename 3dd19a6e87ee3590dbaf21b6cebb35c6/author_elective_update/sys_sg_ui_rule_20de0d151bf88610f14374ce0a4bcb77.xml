@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule">
+    <sys_sg_ui_rule action="DELETE">
+        <active>true</active>
+        <condition>u_slx_tipo_viaISNOTEMPTY</condition>
+        <name>SLX Cambia tipo de via</name>
+        <order>10</order>
+        <parent_id>b29f495c8753b1d0dbaf21b6cebb3585</parent_id>
+        <parent_table>sys_sg_parameter_screen</parent_table>
+        <reverse_if_false>false</reverse_if_false>
+        <sys_class_name>sys_sg_ui_rule</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2024-03-06 14:11:33</sys_created_on>
+        <sys_id>20de0d151bf88610f14374ce0a4bcb77</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SLX Cambia tipo de via</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_20de0d151bf88610f14374ce0a4bcb77</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2024-03-06 14:23:07</sys_updated_on>
+        <trigger>onChange</trigger>
+    </sys_sg_ui_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_ui_rule_20de0d151bf88610f14374ce0a4bcb77</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule"><sys_sg_ui_rule action="INSERT_OR_UPDATE"><active>true</active><condition>u_slx_tipo_viaISNOTEMPTY</condition><name>SLX Cambia tipo de via</name><order>10</order><parent_id>b29f495c8753b1d0dbaf21b6cebb3585</parent_id><parent_table>sys_sg_parameter_screen</parent_table><reverse_if_false>false</reverse_if_false><sys_class_name>sys_sg_ui_rule</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2024-03-06 14:11:33</sys_created_on><sys_id>20de0d151bf88610f14374ce0a4bcb77</sys_id><sys_mod_count>3</sys_mod_count><sys_name>SLX Cambia tipo de via</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_ui_rule_20de0d151bf88610f14374ce0a4bcb77</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2024-03-06 14:23:07</sys_updated_on><trigger>onChange</trigger></sys_sg_ui_rule></record_update>]]></payload>
+        <payload_hash>1036850354</payload_hash>
+        <record_name>SLX Cambia tipo de via</record_name>
+        <reverted_from/>
+        <source>f5e268f31b767950f14374ce0a4bcbfa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2024-03-06 14:23:07</sys_created_on>
+        <sys_id>ce7111d51bf88610f14374ce0a4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e142587e60000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2024-03-06 14:23:07</sys_updated_on>
+        <type>Mobile UI Rule</type>
+        <update_guid>467111d51bf88610c8cdba062479aff3</update_guid>
+        <update_guid_history>467111d51bf88610c8cdba062479aff3:1036850354,49105915eaf8861020bdb2ab9e72007d:-1365126902,d65f81557cf88610d19f00bfa48cf4bf:557139343,acde0d1550f88610e87315c213a16279:841645135</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2024-03-06 14:24:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_rule">sys_sg_ui_rule</sys_db_object>
+        <sys_id>2773c886ae264d5a9d24b112c4b9e041</sys_id>
+        <sys_metadata>20de0d151bf88610f14374ce0a4bcb77</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Cambia tipo de via</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_rule_20de0d151bf88610f14374ce0a4bcb77</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_rule_20de0d151bf88610f14374ce0a4bcb77">ce7111d51bf88610f14374ce0a4bcbf3</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2024-03-06 14:24:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -58,14 +58,14 @@
         <sys_created_by>slx.bb</sys_created_by>
         <sys_created_on>2023-12-03 22:51:30</sys_created_on>
         <sys_id>bc608f4787bef150dbaf21b6cebb35e6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Editar Servicio</sys_name>
         <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
         <sys_update_name>sys_sg_button_bc608f4787bef150dbaf21b6cebb35e6</sys_update_name>
-        <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2023-12-04 20:35:55</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 20:38:22</sys_updated_on>
         <table>x_inch_evt_servicios_prestados</table>
         <take_value_from_field>false</take_value_from_field>
         <type>write_back</type>
