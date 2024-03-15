@@ -5,7 +5,7 @@
         <category/>
         <description/>
         <label>Atenciones Prestadas</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <name>Atenciones Prestadas</name>
         <order>60</order>
         <page/>
@@ -17,14 +17,14 @@
         <sys_created_by>slx.bb</sys_created_by>
         <sys_created_on>2023-12-03 23:03:39</sys_created_on>
         <sys_id>2e23430b87bef150dbaf21b6cebb3545</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Atenciones Prestadas</sys_name>
         <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
         <sys_update_name>sys_sg_input_2e23430b87bef150dbaf21b6cebb3545</sys_update_name>
         <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2023-12-05 15:06:42</sys_updated_on>
+        <sys_updated_on>2024-03-12 21:31:21</sys_updated_on>
         <type display_value="Reference">770c605517021010f2b43b9fadb95900</type>
     </sys_sg_input>
 </record_update>
