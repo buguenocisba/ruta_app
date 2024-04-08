@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="DELETE">
+        <active>true</active>
+        <autofill_variable display_value="Variable Pista">3a8f99148757b1d0dbaf21b6cebb357d</autofill_variable>
+        <category/>
+        <description/>
+        <label>Pista</label>
+        <mandatory>false</mandatory>
+        <name>Pista Test</name>
+        <order>400</order>
+        <page/>
+        <parameter_screen display_value="Editar Evento desde Servicio Form Screen">b29f495c8753b1d0dbaf21b6cebb3585</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-03-26 19:46:04</sys_created_on>
+        <sys_id>232b11f31b89c610f14374ce0a4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pista</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_update_name>sys_sg_input_232b11f31b89c610f14374ce0a4bcbdd</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-03-26 19:46:04</sys_updated_on>
+        <type display_value="Reference">770c605517021010f2b43b9fadb95900</type>
+    </sys_sg_input>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</application>
+        <file_path/>
+        <instance_id>436cdaecdb7217004c1ff70fbf961917</instance_id>
+        <instance_name>intervialproddev</instance_name>
+        <name>sys_sg_input_232b11f31b89c610f14374ce0a4bcbdd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input"><sys_sg_input action="INSERT_OR_UPDATE"><active>true</active><autofill_variable display_value="Variable Pista">3a8f99148757b1d0dbaf21b6cebb357d</autofill_variable><category/><description/><label>Pista</label><mandatory>false</mandatory><name>Pista Test</name><order>400</order><page/><parameter_screen display_value="Editar Evento desde Servicio Form Screen">b29f495c8753b1d0dbaf21b6cebb3585</parameter_screen><parameter_section/><placeholder/><readonly>false</readonly><sys_class_name>sys_sg_input</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2024-03-26 19:46:04</sys_created_on><sys_id>232b11f31b89c610f14374ce0a4bcbdd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pista</sys_name><sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package><sys_policy/><sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope><sys_update_name>sys_sg_input_232b11f31b89c610f14374ce0a4bcbdd</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2024-03-26 19:46:04</sys_updated_on><type display_value="Reference">770c605517021010f2b43b9fadb95900</type></sys_sg_input></record_update>]]></payload>
+        <payload_hash>-1389147620</payload_hash>
+        <record_name>Pista</record_name>
+        <reverted_from/>
+        <source>c173ddbadb1103006f7f3a4d7c9619a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-03-26 19:46:04</sys_created_on>
+        <sys_id>632b11f31b89c610f14374ce0a4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e7c4c620c0000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-03-26 19:46:04</sys_updated_on>
+        <type>Input</type>
+        <update_guid>672b11f37489c610a9b4f544981e39e0</update_guid>
+        <update_guid_history>672b11f37489c610a9b4f544981e39e0:-1389147620</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2024-03-26 19:47:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input">sys_sg_input</sys_db_object>
+        <sys_id>b2d8b2c7d8ee437b978dde7540d13dc1</sys_id>
+        <sys_metadata>232b11f31b89c610f14374ce0a4bcbdd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pista</sys_name>
+        <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
+        <sys_scope_delete display_value="">38aff31d3bb04000a9012f6fb1964000</sys_scope_delete>
+        <sys_update_name>sys_sg_input_232b11f31b89c610f14374ce0a4bcbdd</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_232b11f31b89c610f14374ce0a4bcbdd">632b11f31b89c610f14374ce0a4bcbe1</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2024-03-26 19:47:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

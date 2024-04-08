@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
     <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
         <description/>
-        <execution_script/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+	// Type appropriate comment here, and begin script below
+
+})(input);]]></execution_script>
         <name>Editar Alteracion Vial</name>
         <parameter_screen display_value="Editar Alteracion Form Imput">233173231bfe3950f14374ce0a4bcb3e</parameter_screen>
         <query_condition/>
@@ -9,14 +12,14 @@
         <sys_created_by>slx.bb</sys_created_by>
         <sys_created_on>2023-12-05 15:41:56</sys_created_on>
         <sys_id>63313b231bfe3950f14374ce0a4bcb98</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Editar Alteracion Vial</sys_name>
         <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
         <sys_update_name>sys_sg_write_back_action_item_63313b231bfe3950f14374ce0a4bcb98</sys_update_name>
         <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2023-12-19 20:11:49</sys_updated_on>
+        <sys_updated_on>2024-03-26 23:32:01</sys_updated_on>
         <table>x_inch_evt_alteracion_vial</table>
         <template>u_slx_hora_inicio_alteracionON{{Input: Hora Inicio}}^u_slx_hora_fin_alteracionON{{Input: Hora Fin}}^u_slx_calzada_alteracion={{Input: Calzada Alteración}}^u_slx_km_inicio={{Input: Km Inicio}}^u_slx_km_fin={{Input: Km Fin}}^u_slx_pistas_intervenidas={{Input: Pistas Intervenidas}}^u_slx_tipo_alteracion={{Input: Tipo de Alteración}}^u_slx_largo_congestion={{Input: Largo Congestión (Km)}}^u_slx_concesion={{Variable: Variable Concesion}}^u_slx_tramo={{Variable: Variable Tramo}}</template>
         <type>update</type>

@@ -45,26 +45,31 @@
         current.setAbortAction(true);
     }
 
-    if (fecha_ce.compareTo(fecha_aviso) >= 0) {
-        gs.addErrorMessage("La fecha aviso móvil debe ser posterior o igual a la Fecha de Aviso CE");
-        current.setAbortAction(true);
+    if (fecha_aviso != null && fecha_aviso != '') {
+        if (fecha_ce.compareTo(fecha_aviso) >= 0) {
+            gs.addErrorMessage("La fecha aviso móvil debe ser posterior o igual a la Fecha de Aviso CE");
+            current.setAbortAction(true);
+        }
     }
 
-    if (fecha_aviso.compareTo(fecha_llegada) == 1) {
-        gs.addErrorMessage("La fecha llegada debe ser posterior a la Hora Aviso Móvil");
-        current.setAbortAction(true);
+    if (fecha_llegada != null && fecha_llegada != '') {
+        if (fecha_aviso.compareTo(fecha_llegada) == 1) {
+            gs.addErrorMessage("La fecha llegada debe ser posterior a la Hora Aviso Móvil");
+            current.setAbortAction(true);
+        }
     }
-
-    if (fecha_llegada.compareTo(fecha_termino) == 1) {
-        gs.addErrorMessage("La fecha término debe ser posterior a la Hora Llegada");
-        current.setAbortAction(true);
+    if (fecha_termino != null && fecha_termino != '') {
+        if (fecha_llegada.compareTo(fecha_termino) == 1) {
+            gs.addErrorMessage("La fecha término debe ser posterior a la Hora Llegada");
+            current.setAbortAction(true);
+        }
     }
-
-    if (gtd.compareTo(fecha_termino) == -1) {
-        gs.addErrorMessage("La Fecha y hora de término debe ser anterior a la actual");
-        current.setAbortAction(true);
+    if (fecha_termino != null && fecha_termino != '') {
+        if (gtd.compareTo(fecha_termino) == -1) {
+            gs.addErrorMessage("La Fecha y hora de término debe ser anterior a la actual");
+            current.setAbortAction(true);
+        }
     }
-
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>slx.bb</sys_created_by>
@@ -72,7 +77,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>edd6280087c33950dbaf21b6cebb353e</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>SLX Validar Fechas </sys_name>
         <sys_overrides/>
         <sys_package display_value="RutaApp" source="3dd19a6e87ee3590dbaf21b6cebb35c6">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_package>
@@ -80,7 +85,7 @@
         <sys_scope display_value="RutaApp">3dd19a6e87ee3590dbaf21b6cebb35c6</sys_scope>
         <sys_update_name>sys_script_edd6280087c33950dbaf21b6cebb353e</sys_update_name>
         <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2024-02-02 18:22:39</sys_updated_on>
+        <sys_updated_on>2024-04-08 14:28:05</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
